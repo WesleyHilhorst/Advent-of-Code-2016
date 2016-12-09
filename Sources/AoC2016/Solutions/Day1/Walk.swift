@@ -8,12 +8,24 @@
 
 public class Walk {
 	
-	public enum Direction {
+	public enum Direction: Int {
 		
-		case north
-		case east
-		case south
-		case west
+		case north = 0
+		case east = 1
+		case south = 2
+		case west = 3
+		
+		public func leftDirection() -> Direction {
+		
+			return self.rawValue > 0 ? Direction(rawValue: self.rawValue - 1)! : .west
+			
+		}
+		
+		public func rightDirection() -> Direction {
+			
+			return self.rawValue < 3 ? Direction(rawValue: self.rawValue + 1)! : .north
+			
+		}
 		
 	}
 	
@@ -46,39 +58,13 @@ public class Walk {
 	
 	public func turnLeft() {
 		
-		switch direction {
-		case .north:
-			direction = .west
-			break
-		case .west:
-			direction = .south
-			break
-		case .south:
-			direction = .east
-			break
-		case .east:
-			direction = .north
-			break
-		}
+		direction = direction.leftDirection()
 		
 	}
 	
 	public func turnRight() {
 		
-		switch direction {
-		case .north:
-			direction = .east
-			break
-		case .east:
-			direction = .south
-			break
-		case .south:
-			direction = .west
-			break
-		case .west:
-			direction = .north
-			break
-		}
+		direction = direction.rightDirection()
 		
 	}
 	
