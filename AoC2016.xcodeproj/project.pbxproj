@@ -16,7 +16,8 @@
 		F6B459361DFB4D9B00B1BE1B /* KeySlave.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B459351DFB4D9B00B1BE1B /* KeySlave.swift */; };
 		F6B459391DFB613D00B1BE1B /* Day3Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B459381DFB613D00B1BE1B /* Day3Solution.swift */; };
 		F6B4593B1DFB618500B1BE1B /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B4593A1DFB618500B1BE1B /* Triangle.swift */; };
-		F6B4593D1DFB61EF00B1BE1B /* TriangleSlave.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B4593C1DFB61EF00B1BE1B /* TriangleSlave.swift */; };
+		F6B4593D1DFB61EF00B1BE1B /* SimpleTriangleSlave.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B4593C1DFB61EF00B1BE1B /* SimpleTriangleSlave.swift */; };
+		F6B4593F1DFB678C00B1BE1B /* ComplexTriangleSlave.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B4593E1DFB678C00B1BE1B /* ComplexTriangleSlave.swift */; };
 		OBJ_281 /* BlockingObservable+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* BlockingObservable+Operators.swift */; };
 		OBJ_282 /* BlockingObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* BlockingObservable.swift */; };
 		OBJ_283 /* ObservableConvertibleType+Blocking.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* ObservableConvertibleType+Blocking.swift */; };
@@ -211,7 +212,8 @@
 		F6B459351DFB4D9B00B1BE1B /* KeySlave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeySlave.swift; sourceTree = "<group>"; };
 		F6B459381DFB613D00B1BE1B /* Day3Solution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day3Solution.swift; sourceTree = "<group>"; };
 		F6B4593A1DFB618500B1BE1B /* Triangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
-		F6B4593C1DFB61EF00B1BE1B /* TriangleSlave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangleSlave.swift; sourceTree = "<group>"; };
+		F6B4593C1DFB61EF00B1BE1B /* SimpleTriangleSlave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTriangleSlave.swift; sourceTree = "<group>"; };
+		F6B4593E1DFB678C00B1BE1B /* ComplexTriangleSlave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComplexTriangleSlave.swift; sourceTree = "<group>"; };
 		OBJ_10 /* BlockingObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockingObservable.swift; sourceTree = "<group>"; };
 		OBJ_100 /* Variable+Driver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Variable+Driver.swift"; sourceTree = "<group>"; };
 		OBJ_101 /* Variable+SharedSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Variable+SharedSequence.swift"; sourceTree = "<group>"; };
@@ -512,7 +514,8 @@
 			isa = PBXGroup;
 			children = (
 				F6B459381DFB613D00B1BE1B /* Day3Solution.swift */,
-				F6B4593C1DFB61EF00B1BE1B /* TriangleSlave.swift */,
+				F6B4593E1DFB678C00B1BE1B /* ComplexTriangleSlave.swift */,
+				F6B4593C1DFB61EF00B1BE1B /* SimpleTriangleSlave.swift */,
 				F6B4593A1DFB618500B1BE1B /* Triangle.swift */,
 			);
 			path = Day3;
@@ -1136,6 +1139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				F6B4593F1DFB678C00B1BE1B /* ComplexTriangleSlave.swift in Sources */,
 				F6B459321DFB4BAF00B1BE1B /* Day2Solution.swift in Sources */,
 				OBJ_553 /* main.swift in Sources */,
 				OBJ_554 /* ChallengeDataService.swift in Sources */,
@@ -1151,7 +1155,7 @@
 				F6B4593B1DFB618500B1BE1B /* Triangle.swift in Sources */,
 				OBJ_557 /* Solution.swift in Sources */,
 				OBJ_558 /* Day1Solution.swift in Sources */,
-				F6B4593D1DFB61EF00B1BE1B /* TriangleSlave.swift in Sources */,
+				F6B4593D1DFB61EF00B1BE1B /* SimpleTriangleSlave.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

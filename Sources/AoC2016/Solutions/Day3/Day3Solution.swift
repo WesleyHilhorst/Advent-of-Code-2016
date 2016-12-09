@@ -16,7 +16,7 @@ public class Day3Solution: Solution {
 	
 	public func solveSilverStar(input: String) -> String {
 		
-		let slave = TriangleSlave(actionInput: input)
+		let slave = SimpleTriangleSlave(actionInput: input)
 		
 		return "We got \(slave.countValidTriangles()) valid triangles"
 		
@@ -24,7 +24,9 @@ public class Day3Solution: Solution {
 	
 	public func solveGoldStar(input: String) -> String {
 		
-		return "Not yet implemented"
+		let slave = ComplexTriangleSlave(actionInput: input)
+		
+		return "We got \(slave.countValidTriangles()) valid triangles"
 		
 	}
 	

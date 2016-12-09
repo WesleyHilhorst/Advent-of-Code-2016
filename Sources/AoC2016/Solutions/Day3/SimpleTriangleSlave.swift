@@ -1,12 +1,12 @@
 //
-//  TriangleSlave.swift
+//  SimpleTriangleSlave.swift
 //  AoC2016
 //
 //  Created by Wesley Hilhorst on 09/12/2016.
 //
 //
 
-public class TriangleSlave {
+public class SimpleTriangleSlave {
 	
 	private(set) var triangles = [Triangle]()
 
@@ -28,11 +28,11 @@ public class TriangleSlave {
 		
 		return input.components(separatedBy: "\n")
 			.filter { $0.characters.count > 0 }
-			.map { self.convertStringToTriangle(string: $0) }
+			.map { self.convertRowToTriangle(string: $0) }
 
 	}
 	
-	private func convertStringToTriangle(string: String) -> Triangle {
+	private func convertRowToTriangle(string: String) -> Triangle {
 
 		let sideAEndIndex = string.index(string.startIndex, offsetBy: 5)
 		let sideBEndIndex = string.index(string.startIndex, offsetBy: 10)
