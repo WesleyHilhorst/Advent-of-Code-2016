@@ -26,6 +26,7 @@ public class KeySlave {
 		
 		self.keyPad = keyPad
 		self.instructionSet = readInstructions(fromInput: input)
+		
 	}
 	
 	public func runInstructionSets() -> [String] {
