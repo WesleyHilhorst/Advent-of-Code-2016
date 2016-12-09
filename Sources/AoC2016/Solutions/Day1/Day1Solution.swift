@@ -41,7 +41,7 @@ public class Day1Solution: Solution {
 			slave.performAction(action: action)
 			
 			// Only do the history stuff when actually moving forward
-			if action != .forward {
+			if action != .moveForward {
 				continue
 			}
 			

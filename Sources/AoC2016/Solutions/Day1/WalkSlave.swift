@@ -10,9 +10,9 @@ public class WalkSlave {
 	
 	public enum Action: String {
 		
-		case right = "R"
-		case left = "L"
-		case forward
+		case turnRight = "R"
+		case turnLeft = "L"
+		case moveForward
 		
 	}
 	
@@ -35,11 +35,7 @@ public class WalkSlave {
 	
 	public func performAllActions() {
 		
-		for action in actions {
-			
-			performAction(action: action)
-			
-		}
+		actions.forEach{ performAction(action: $0) }
 		
 	}
 	
@@ -47,15 +43,15 @@ public class WalkSlave {
 		
 		switch action {
 			
-		case .right:
+		case .turnRight:
 			walk.turnRight()
 			
 			break
-		case .left:
+		case .turnLeft:
 			walk.turnLeft()
 			
 			break
-		case .forward:
+		case .moveForward:
 			walk.moveForward()
 			
 			break
@@ -81,7 +77,7 @@ public class WalkSlave {
 		for _ in 1...rawCount {
 			
 			instructionActions.append(
-				.forward
+				.moveForward
 			)
 			
 		}
