@@ -14,7 +14,8 @@ public class Application {
 	private let disposeBag = DisposeBag()
 	
 	private let solutions: [Solution] = [
-		Day1Solution()
+		Day1Solution(),
+		Day2Solution()
 	]
 
 	@discardableResult
