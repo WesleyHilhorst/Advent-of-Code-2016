@@ -21,10 +21,10 @@ public class Day1Solution: Solution {
 		// Perform all actions
 		slave.performAllActions()
 		
-		let coordinates = slave.walk.coordinates
-		let blocksDistance = coordinates.absoluteDitanceFromZero()
+		let coordinate = slave.walk.coordinate
+		let blocksDistance = coordinate.absoluteDistance()
 		
-		return "HQ is at \(coordinates) and is \(blocksDistance) away"
+		return "HQ is at \(coordinate) and is \(blocksDistance) away"
 
 	}
 	
@@ -33,7 +33,7 @@ public class Day1Solution: Solution {
 		let slave = WalkSlave(actionInput: input)
 		
 		// Keep track of previously visited coordinates
-		var history = [Coordinates]()
+		var history = [Coordinate]()
 		
 		// Run actions and see if we have been there before
 		for action in slave.actions {
@@ -45,22 +45,22 @@ public class Day1Solution: Solution {
 				continue
 			}
 			
-			let newCoordinates = slave.walk.coordinates
-			if history.contains(newCoordinates) {
+			let newCoordinate = slave.walk.coordinate
+			if history.contains(newCoordinate) {
 				
 				// We have been here before, stop walking!
 				break
 				
 			}
 			
-			history.append(newCoordinates)
+			history.append(newCoordinate)
 			
 		}
 		
-		let coordinates = slave.walk.coordinates
-		let blocksDistance = coordinates.absoluteDitanceFromZero()
+		let coordinate = slave.walk.coordinate
+		let blocksDistance = coordinate.absoluteDistance()
 		
-		return "HQ is at \(coordinates) and is \(blocksDistance) away"
+		return "HQ is at \(coordinate) and is \(blocksDistance) away"
 
 	}
 	

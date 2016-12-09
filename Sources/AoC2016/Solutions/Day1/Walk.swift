@@ -17,7 +17,7 @@ public class Walk {
 		
 	}
 	
-	public var coordinates = Coordinates(x: 0, y: 0)
+	public var coordinate = Coordinate(x: 0, y: 0)
 	public var direction = Direction.north
 	
 	// MARK: - Moving
@@ -26,16 +26,16 @@ public class Walk {
 		
 		switch direction {
 		case .north:
-			coordinates.y = coordinates.y + 1
+			coordinate.y = coordinate.y + 1
 			break
 		case .west:
-			coordinates.x = coordinates.x - 1
+			coordinate.x = coordinate.x - 1
 			break
 		case .south:
-			coordinates.y = coordinates.y - 1
+			coordinate.y = coordinate.y - 1
 			break
 		case .east:
-			coordinates.x = coordinates.x + 1
+			coordinate.x = coordinate.x + 1
 			break
 			
 		}

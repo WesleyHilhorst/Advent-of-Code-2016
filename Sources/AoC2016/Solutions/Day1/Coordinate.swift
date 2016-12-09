@@ -6,12 +6,12 @@
 //
 //
 
-public struct Coordinates {
+public struct Coordinate {
 	
 	var x: Int = 0
 	var y: Int = 0
 	
-	public func absoluteDitanceFromZero() -> Int {
+	public func absoluteDistance() -> Int {
 		
 		return abs(x) + abs(y)
 		
@@ -21,9 +21,9 @@ public struct Coordinates {
 
 // MARK: - Equatable
 
-extension Coordinates: Equatable {
+extension Coordinate: Equatable {
 	
-	public static func == (lhs: Coordinates, rhs: Coordinates) -> Bool {
+	public static func == (lhs: Coordinate, rhs: Coordinate) -> Bool {
 		
 		return lhs.x == rhs.x && lhs.y == rhs.y
 		
@@ -33,7 +33,7 @@ extension Coordinates: Equatable {
 
 // MARK: - CustomStringConvertible
 
-extension Coordinates: CustomStringConvertible {
+extension Coordinate: CustomStringConvertible {
 	
 	public var description: String {
 		get {
