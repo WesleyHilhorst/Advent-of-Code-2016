@@ -16,7 +16,7 @@ public class Day1Solution: Solution {
 	
 	public func solveSilverStar(input: String) -> String {
 		
-		let slave = WalkerSlave(actionInput: input)
+		let slave = WalkSlave(actionInput: input)
 		
 		// Perform all actions
 		slave.performAllActions()
@@ -30,7 +30,7 @@ public class Day1Solution: Solution {
 	
 	public func solveGoldStar(input: String) -> String {
 		
-		let slave = WalkerSlave(actionInput: input)
+		let slave = WalkSlave(actionInput: input)
 		
 		// Keep track of previously visited coordinates
 		var history = [Coordinates]()

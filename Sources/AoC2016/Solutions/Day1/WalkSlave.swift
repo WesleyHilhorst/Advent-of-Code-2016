@@ -1,15 +1,12 @@
 //
-//  WalkerSlave.swift
+//  WalkSlave.swift
 //  AoC2016
 //
-//  Created by Wesley Hilhorst on 08/12/2016.
+//  Created by Wesley Hilhorst on 09/12/2016.
 //
 //
 
-import RxSwift
-import RxBlocking
-
-public class WalkerSlave {
+public class WalkSlave {
 	
 	public enum Action: String {
 		
@@ -23,7 +20,7 @@ public class WalkerSlave {
 	fileprivate(set) var walk = Walk()
 	
 	public init(actionInput input: String) {
-
+		
 		actions = readActions(fromInput: input)
 		
 	}
@@ -47,7 +44,7 @@ public class WalkerSlave {
 	}
 	
 	public func performAction(action: Action) {
-
+		
 		switch action {
 			
 		case .right:
