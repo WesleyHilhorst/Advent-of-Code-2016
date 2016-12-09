@@ -26,16 +26,16 @@ public class Walk {
 		
 		switch direction {
 		case .north:
-			coordinate.y = coordinate.y + 1
+			coordinate.y += 1
 			break
 		case .west:
-			coordinate.x = coordinate.x - 1
+			coordinate.x -= 1
 			break
 		case .south:
-			coordinate.y = coordinate.y - 1
+			coordinate.y -= 1
 			break
 		case .east:
-			coordinate.x = coordinate.x + 1
+			coordinate.x += 1
 			break
 			
 		}
