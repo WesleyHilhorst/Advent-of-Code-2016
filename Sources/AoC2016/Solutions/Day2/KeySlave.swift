@@ -20,12 +20,12 @@ public class KeySlave {
 	}
 	
 	private var instructionSet = [[Instruction]]()
-	private var keyPad = Keypad()
+	private var keyPad: KeyPad
 	
-	public init(actionInput input: String) {
+	public init(actionInput input: String, keyPad: KeyPad = KeyPad()) {
 		
-		instructionSet = readInstructions(fromInput: input)
-		
+		self.keyPad = keyPad
+		self.instructionSet = readInstructions(fromInput: input)
 	}
 	
 	public func runInstructionSets() -> [String] {

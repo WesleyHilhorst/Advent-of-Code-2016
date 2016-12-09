@@ -27,7 +27,22 @@ class Day2Solution: Solution {
 	
 	func solveGoldStar(input: String) -> String {
 		
-		return "Not yet implemented"
+		// Create other keyPad layout
+		let layout = [
+			[" ", " ", "1", " ", " "],
+			[" ", "2", "3", "4", " "],
+			["5", "6", "7", "8", "9"],
+			[" ", "A", "B", "C", " "],
+			[" ", " ", "D", " ", " "]
+		]
+		
+		let keyPad = KeyPad(keys: layout, startingPosition: Coordinate(x: 2, y: 2))
+		let keySlave = KeySlave(actionInput: input, keyPad: keyPad)
+		
+		// Run all of the instructions
+		let keys = keySlave.runInstructionSets()
+		
+		return "The code is: \(keys.joined(separator: ""))"
 		
 	}
 	

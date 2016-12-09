@@ -12,7 +12,7 @@
 		F6B4592C1DFAE3D000B1BE1B /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B459281DFADE4A00B1BE1B /* Coordinate.swift */; };
 		F6B4592E1DFAEC4E00B1BE1B /* WalkSlave.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B4592D1DFAEC4E00B1BE1B /* WalkSlave.swift */; };
 		F6B459321DFB4BAF00B1BE1B /* Day2Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B459311DFB4BAF00B1BE1B /* Day2Solution.swift */; };
-		F6B459341DFB4BF200B1BE1B /* Keypad.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B459331DFB4BF200B1BE1B /* Keypad.swift */; };
+		F6B459341DFB4BF200B1BE1B /* KeyPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B459331DFB4BF200B1BE1B /* KeyPad.swift */; };
 		F6B459361DFB4D9B00B1BE1B /* KeySlave.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B459351DFB4D9B00B1BE1B /* KeySlave.swift */; };
 		OBJ_281 /* BlockingObservable+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* BlockingObservable+Operators.swift */; };
 		OBJ_282 /* BlockingObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* BlockingObservable.swift */; };
@@ -204,7 +204,7 @@
 		F6B4592A1DFAE38800B1BE1B /* Walk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Walk.swift; sourceTree = "<group>"; };
 		F6B4592D1DFAEC4E00B1BE1B /* WalkSlave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkSlave.swift; sourceTree = "<group>"; };
 		F6B459311DFB4BAF00B1BE1B /* Day2Solution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day2Solution.swift; sourceTree = "<group>"; };
-		F6B459331DFB4BF200B1BE1B /* Keypad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keypad.swift; sourceTree = "<group>"; };
+		F6B459331DFB4BF200B1BE1B /* KeyPad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyPad.swift; sourceTree = "<group>"; };
 		F6B459351DFB4D9B00B1BE1B /* KeySlave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeySlave.swift; sourceTree = "<group>"; };
 		OBJ_10 /* BlockingObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockingObservable.swift; sourceTree = "<group>"; };
 		OBJ_100 /* Variable+Driver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Variable+Driver.swift"; sourceTree = "<group>"; };
@@ -497,7 +497,7 @@
 			children = (
 				F6B459311DFB4BAF00B1BE1B /* Day2Solution.swift */,
 				F6B459351DFB4D9B00B1BE1B /* KeySlave.swift */,
-				F6B459331DFB4BF200B1BE1B /* Keypad.swift */,
+				F6B459331DFB4BF200B1BE1B /* KeyPad.swift */,
 			);
 			path = Day2;
 			sourceTree = "<group>";
@@ -1124,7 +1124,7 @@
 				OBJ_554 /* ChallengeDataService.swift in Sources */,
 				F6B4592B1DFAE38800B1BE1B /* Walk.swift in Sources */,
 				OBJ_555 /* ChallengeFileService.swift in Sources */,
-				F6B459341DFB4BF200B1BE1B /* Keypad.swift in Sources */,
+				F6B459341DFB4BF200B1BE1B /* KeyPad.swift in Sources */,
 				OBJ_556 /* ChallengeWebService.swift in Sources */,
 				F63B80E11DF9FBCB00DE1E64 /* ChallengeData.swift in Sources */,
 				F6B4592E1DFAEC4E00B1BE1B /* WalkSlave.swift in Sources */,
