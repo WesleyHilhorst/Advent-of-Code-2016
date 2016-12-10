@@ -29,6 +29,7 @@ public class Day4Solution: Solution {
 		
 		let slave = RoomSlave(roomInput: input)
 		
+		// Find the room with the correct decrypted name
 		let northPoleRoom = slave.roomForNorthPoleObjects()
 		
 		return "The room for North Pole objects is in sector: \(northPoleRoom.sectorID)"

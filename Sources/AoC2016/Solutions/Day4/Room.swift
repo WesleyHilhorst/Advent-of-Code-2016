@@ -50,7 +50,7 @@ public struct Room {
 		var decryptedName = ""
 		
 		for character in characters {
-			if String(character) != " " {
+			if Room.allowedAlphabet.characters.contains(character) {
 				
 				let position = sectorID % numberOfCharacters + (self.alphabeticalPosition(char: character) + 1)
 				
