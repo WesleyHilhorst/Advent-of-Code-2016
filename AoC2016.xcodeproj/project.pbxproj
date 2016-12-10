@@ -18,6 +18,9 @@
 		F6B4593B1DFB618500B1BE1B /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B4593A1DFB618500B1BE1B /* Triangle.swift */; };
 		F6B4593D1DFB61EF00B1BE1B /* SimpleTriangleSlave.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B4593C1DFB61EF00B1BE1B /* SimpleTriangleSlave.swift */; };
 		F6B4593F1DFB678C00B1BE1B /* ComplexTriangleSlave.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B4593E1DFB678C00B1BE1B /* ComplexTriangleSlave.swift */; };
+		F6B459421DFBFFDE00B1BE1B /* Day4Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B459411DFBFFDE00B1BE1B /* Day4Solution.swift */; };
+		F6B459441DFC008600B1BE1B /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B459431DFC008600B1BE1B /* Room.swift */; };
+		F6B459461DFC01DB00B1BE1B /* RoomSlave.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B459451DFC01DB00B1BE1B /* RoomSlave.swift */; };
 		OBJ_281 /* BlockingObservable+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* BlockingObservable+Operators.swift */; };
 		OBJ_282 /* BlockingObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* BlockingObservable.swift */; };
 		OBJ_283 /* ObservableConvertibleType+Blocking.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* ObservableConvertibleType+Blocking.swift */; };
@@ -214,6 +217,9 @@
 		F6B4593A1DFB618500B1BE1B /* Triangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
 		F6B4593C1DFB61EF00B1BE1B /* SimpleTriangleSlave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTriangleSlave.swift; sourceTree = "<group>"; };
 		F6B4593E1DFB678C00B1BE1B /* ComplexTriangleSlave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComplexTriangleSlave.swift; sourceTree = "<group>"; };
+		F6B459411DFBFFDE00B1BE1B /* Day4Solution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day4Solution.swift; sourceTree = "<group>"; };
+		F6B459431DFC008600B1BE1B /* Room.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		F6B459451DFC01DB00B1BE1B /* RoomSlave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomSlave.swift; sourceTree = "<group>"; };
 		OBJ_10 /* BlockingObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockingObservable.swift; sourceTree = "<group>"; };
 		OBJ_100 /* Variable+Driver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Variable+Driver.swift"; sourceTree = "<group>"; };
 		OBJ_101 /* Variable+SharedSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Variable+SharedSequence.swift"; sourceTree = "<group>"; };
@@ -521,6 +527,16 @@
 			path = Day3;
 			sourceTree = "<group>";
 		};
+		F6B459401DFBFFD600B1BE1B /* Day4 */ = {
+			isa = PBXGroup;
+			children = (
+				F6B459411DFBFFDE00B1BE1B /* Day4Solution.swift */,
+				F6B459431DFC008600B1BE1B /* Room.swift */,
+				F6B459451DFC01DB00B1BE1B /* RoomSlave.swift */,
+			);
+			path = Day4;
+			sourceTree = "<group>";
+		};
 		OBJ_102 /* RxCocoaRuntime */ = {
 			isa = PBXGroup;
 			children = (
@@ -820,6 +836,7 @@
 				OBJ_266 /* Day1 */,
 				F6B459301DFB4B9F00B1BE1B /* Day2 */,
 				F6B459371DFB613400B1BE1B /* Day3 */,
+				F6B459401DFBFFD600B1BE1B /* Day4 */,
 				OBJ_265 /* Solution.swift */,
 			);
 			path = Solutions;
@@ -1141,12 +1158,15 @@
 			files = (
 				F6B4593F1DFB678C00B1BE1B /* ComplexTriangleSlave.swift in Sources */,
 				F6B459321DFB4BAF00B1BE1B /* Day2Solution.swift in Sources */,
+				F6B459441DFC008600B1BE1B /* Room.swift in Sources */,
 				OBJ_553 /* main.swift in Sources */,
 				OBJ_554 /* ChallengeDataService.swift in Sources */,
 				F6B4592B1DFAE38800B1BE1B /* Walk.swift in Sources */,
+				F6B459461DFC01DB00B1BE1B /* RoomSlave.swift in Sources */,
 				OBJ_555 /* ChallengeFileService.swift in Sources */,
 				F6B459391DFB613D00B1BE1B /* Day3Solution.swift in Sources */,
 				F6B459341DFB4BF200B1BE1B /* KeyPad.swift in Sources */,
+				F6B459421DFBFFDE00B1BE1B /* Day4Solution.swift in Sources */,
 				OBJ_556 /* ChallengeWebService.swift in Sources */,
 				F63B80E11DF9FBCB00DE1E64 /* ChallengeData.swift in Sources */,
 				F6B4592E1DFAEC4E00B1BE1B /* WalkSlave.swift in Sources */,

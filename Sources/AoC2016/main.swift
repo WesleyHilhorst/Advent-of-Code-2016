@@ -16,7 +16,8 @@ public class Application {
 	private let solutions: [Solution] = [
 		Day1Solution(),
 		Day2Solution(),
-		Day3Solution()
+		Day3Solution(),
+		Day4Solution()
 	]
 
 	@discardableResult
