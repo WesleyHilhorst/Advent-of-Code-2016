@@ -27,7 +27,11 @@ public class Day4Solution: Solution {
 	
 	public func solveGoldStar(input: String) -> String {
 		
-		return "Not yet implemented"
+		let slave = RoomSlave(roomInput: input)
+		
+		let northPoleRoom = slave.roomForNorthPoleObjects()
+		
+		return "The room for North Pole objects is in sector: \(northPoleRoom.sectorID)"
 		
 	}
 	

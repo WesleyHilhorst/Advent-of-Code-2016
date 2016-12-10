@@ -29,6 +29,14 @@ public class RoomSlave {
 		
 	}
 	
+	public func roomForNorthPoleObjects() -> Room {
+		
+		return rooms
+			.filter { $0.isReal() && $0.decryptedName().contains("northpole object storage") }
+			.first!
+		
+	}
+	
 	private func convertToRoom(roomString: String) -> Room {
 		
 		let pattern = "([a-z-]*)-(\\d*)\\[([a-z]*)\\]"

@@ -10,6 +10,8 @@ import Foundation
 
 public struct Room {
 	
+	static let allowedAlphabet = "abcdefghijklmnopqrstuvwxyz"
+	
 	var name: String
 	var sectorID: Int
 	var checksum: String
@@ -25,7 +27,7 @@ public struct Room {
 		}
 		
 		// Sort the characters first on count and then on character
-		let sortedName = characterCountMap
+		return characterCountMap
 			.sorted {
 				if $0.value == $1.value {
 					return String(describing: $0.key) < String(describing: $1.key)
@@ -36,9 +38,57 @@ public struct Room {
 			}
 			.map { String($0.key) }
 			.prefix(5)
-			.joined(separator: "")
+			.joined(separator: "") == checksum
 		
-		return sortedName == checksum
+	}
+	
+	public func decryptedName() -> String {
+		
+		let characters = name.replacingOccurrences(of: "-", with: " ").characters
+		
+		let numberOfCharacters = Room.allowedAlphabet.characters.count
+		var decryptedName = ""
+		
+		for character in characters {
+			if String(character) != " " {
+				
+				let position = sectorID % numberOfCharacters + (self.alphabeticalPosition(char: character) + 1)
+				
+				if position > numberOfCharacters {
+					decryptedName.append(
+						characterForPosition(pos: position - numberOfCharacters)
+					)
+				}
+				else {
+					
+					decryptedName.append(
+						characterForPosition(pos: position )
+					)
+					
+				}
+				
+			}
+			else {
+				
+				decryptedName.append(character)
+				
+			}
+		}
+		
+		return decryptedName
+		
+	}
+	
+	private func alphabeticalPosition(char: Character) -> Int {
+		
+		let endIndex = Room.allowedAlphabet.characters.index(of: char)!
+		return Room.allowedAlphabet.distance(from: Room.allowedAlphabet.startIndex, to: endIndex)
+		
+	}
+	
+	private func characterForPosition(pos: Int) -> Character {
+		
+		return Array(Room.allowedAlphabet.characters)[pos - 1]
 		
 	}
 	
