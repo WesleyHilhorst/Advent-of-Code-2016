@@ -23,7 +23,8 @@ public class Day5Solution: Solution {
 	
 	public func solveGoldStar(input: String) -> String {
 		
-		return "Not yet implemented"
+		let password = HashSlave.generateComplexPassword(fromInput: input)
+		return "Found password: \(password) for input: \(input)"
 		
 	}
 	

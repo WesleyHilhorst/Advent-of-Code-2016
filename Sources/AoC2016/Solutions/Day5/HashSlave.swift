@@ -22,8 +22,10 @@ public class HashSlave {
 			let hashInput = hash(input: input, count: count)
 
 			if hashInput.hasPrefix("00000") {
+				
 				let characterArray = Array(hashInput.characters)
 				password = "\(password)\(characterArray[5])"
+				
 			}
 			
 			count += 1
@@ -31,6 +33,48 @@ public class HashSlave {
 		}
 		
 		return password
+		
+	}
+	
+	public class func generateComplexPassword(fromInput input: String) -> String {
+		
+		let input = input.trimmingCharacters(in: .whitespacesAndNewlines)
+
+		var passwordCharacters = [
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			""
+		]
+		
+		var count = 0
+		
+		while(passwordCharacters.filter { $0 == "" }.count != 0) {
+			
+			let hashInput = hash(input: input, count: count)
+			
+			if hashInput.hasPrefix("00000") {
+				
+				let characterArray = Array(hashInput.characters)
+				let characterPosition = Int(String(characterArray[5]), radix: 16)!
+				
+				if characterPosition >= 0 && characterPosition < 8 && passwordCharacters[characterPosition] == "" {
+					
+					passwordCharacters[characterPosition] = String(characterArray[6])
+					
+				}
+				
+			}
+			
+			count += 1
+			
+		}
+		
+		return passwordCharacters.joined(separator: "")
 		
 	}
 	
