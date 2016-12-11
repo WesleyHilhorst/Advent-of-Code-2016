@@ -6,15 +6,15 @@
 //
 //
 
-class Day6Solution: Solution {
+public class Day6Solution: Solution {
 	
-	var day: Int {
+	public var day: Int {
 		get {
 			return 6
 		}
 	}
 	
-	func solveSilverStar(input: String) -> String {
+	public func solveSilverStar(input: String) -> String {
 		
 		let slave = NoiseCancelSlave(rowsInput: input)
 		
@@ -22,7 +22,7 @@ class Day6Solution: Solution {
 		
 	}
 	
-	func solveGoldStar(input: String) -> String {
+	public func solveGoldStar(input: String) -> String {
 		
 		let slave = NoiseCancelSlave(rowsInput: input)
 		

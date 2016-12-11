@@ -819,13 +819,13 @@
 		OBJ_265 /* Solutions */ = {
 			isa = PBXGroup;
 			children = (
-				F66FCFFE1DFDF52C00507448 /* Day6 */,
-				OBJ_266 /* Solution.swift */,
 				OBJ_267 /* Day1 */,
 				OBJ_272 /* Day2 */,
 				OBJ_276 /* Day3 */,
 				OBJ_281 /* Day4 */,
 				OBJ_285 /* Day5 */,
+				F66FCFFE1DFDF52C00507448 /* Day6 */,
+				OBJ_266 /* Solution.swift */,
 			);
 			path = Solutions;
 			sourceTree = "<group>";
