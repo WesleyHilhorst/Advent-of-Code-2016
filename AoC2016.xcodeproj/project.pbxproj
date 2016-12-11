@@ -7,219 +7,207 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F63B80E11DF9FBCB00DE1E64 /* ChallengeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63B80DF1DF9FB7000DE1E64 /* ChallengeData.swift */; };
-		F6B4592B1DFAE38800B1BE1B /* Walk.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B4592A1DFAE38800B1BE1B /* Walk.swift */; };
-		F6B4592C1DFAE3D000B1BE1B /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B459281DFADE4A00B1BE1B /* Coordinate.swift */; };
-		F6B4592E1DFAEC4E00B1BE1B /* WalkSlave.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B4592D1DFAEC4E00B1BE1B /* WalkSlave.swift */; };
-		F6B459321DFB4BAF00B1BE1B /* Day2Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B459311DFB4BAF00B1BE1B /* Day2Solution.swift */; };
-		F6B459341DFB4BF200B1BE1B /* KeyPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B459331DFB4BF200B1BE1B /* KeyPad.swift */; };
-		F6B459361DFB4D9B00B1BE1B /* KeySlave.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B459351DFB4D9B00B1BE1B /* KeySlave.swift */; };
-		F6B459391DFB613D00B1BE1B /* Day3Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B459381DFB613D00B1BE1B /* Day3Solution.swift */; };
-		F6B4593B1DFB618500B1BE1B /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B4593A1DFB618500B1BE1B /* Triangle.swift */; };
-		F6B4593D1DFB61EF00B1BE1B /* SimpleTriangleSlave.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B4593C1DFB61EF00B1BE1B /* SimpleTriangleSlave.swift */; };
-		F6B4593F1DFB678C00B1BE1B /* ComplexTriangleSlave.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B4593E1DFB678C00B1BE1B /* ComplexTriangleSlave.swift */; };
-		F6B459421DFBFFDE00B1BE1B /* Day4Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B459411DFBFFDE00B1BE1B /* Day4Solution.swift */; };
-		F6B459441DFC008600B1BE1B /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B459431DFC008600B1BE1B /* Room.swift */; };
-		F6B459461DFC01DB00B1BE1B /* RoomSlave.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B459451DFC01DB00B1BE1B /* RoomSlave.swift */; };
-		OBJ_281 /* BlockingObservable+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* BlockingObservable+Operators.swift */; };
-		OBJ_282 /* BlockingObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* BlockingObservable.swift */; };
-		OBJ_283 /* ObservableConvertibleType+Blocking.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* ObservableConvertibleType+Blocking.swift */; };
-		OBJ_284 /* Platform.Darwin.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* Platform.Darwin.swift */; };
-		OBJ_285 /* Platform.Linux.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* Platform.Linux.swift */; };
-		OBJ_286 /* RunLoopLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* RunLoopLock.swift */; };
-		OBJ_288 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_274 /* RxSwift.framework */; };
-		OBJ_404 /* AddRef.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_115 /* AddRef.swift */; };
-		OBJ_405 /* Amb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_116 /* Amb.swift */; };
-		OBJ_406 /* AnonymousDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_117 /* AnonymousDisposable.swift */; };
-		OBJ_407 /* AnonymousInvocable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_118 /* AnonymousInvocable.swift */; };
-		OBJ_408 /* AnonymousObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_119 /* AnonymousObservable.swift */; };
-		OBJ_409 /* AnonymousObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_120 /* AnonymousObserver.swift */; };
-		OBJ_410 /* AnyObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_121 /* AnyObserver.swift */; };
-		OBJ_411 /* AsyncLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_122 /* AsyncLock.swift */; };
-		OBJ_412 /* Bag+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_123 /* Bag+Rx.swift */; };
-		OBJ_413 /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_124 /* Bag.swift */; };
-		OBJ_414 /* BehaviorSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_125 /* BehaviorSubject.swift */; };
-		OBJ_415 /* BinaryDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_126 /* BinaryDisposable.swift */; };
-		OBJ_416 /* BooleanDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_127 /* BooleanDisposable.swift */; };
-		OBJ_417 /* Buffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_128 /* Buffer.swift */; };
-		OBJ_418 /* Cancelable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_129 /* Cancelable.swift */; };
-		OBJ_419 /* Catch.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_130 /* Catch.swift */; };
-		OBJ_420 /* CombineLatest+arity.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_131 /* CombineLatest+arity.swift */; };
-		OBJ_421 /* CombineLatest+Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_132 /* CombineLatest+Collection.swift */; };
-		OBJ_422 /* CombineLatest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_133 /* CombineLatest.swift */; };
-		OBJ_423 /* CompositeDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_134 /* CompositeDisposable.swift */; };
-		OBJ_424 /* Concat.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_135 /* Concat.swift */; };
-		OBJ_425 /* ConcurrentDispatchQueueScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_136 /* ConcurrentDispatchQueueScheduler.swift */; };
-		OBJ_426 /* ConcurrentMainScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_137 /* ConcurrentMainScheduler.swift */; };
-		OBJ_427 /* ConnectableObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_138 /* ConnectableObservable.swift */; };
-		OBJ_428 /* ConnectableObservableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_139 /* ConnectableObservableType.swift */; };
-		OBJ_429 /* CurrentThreadScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_140 /* CurrentThreadScheduler.swift */; };
-		OBJ_430 /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_141 /* Debug.swift */; };
-		OBJ_431 /* Debunce.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_142 /* Debunce.swift */; };
-		OBJ_432 /* Deferred.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_143 /* Deferred.swift */; };
-		OBJ_433 /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_144 /* Delay.swift */; };
-		OBJ_434 /* DelaySubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_145 /* DelaySubscription.swift */; };
-		OBJ_435 /* DispatchQueue+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_146 /* DispatchQueue+Extensions.swift */; };
-		OBJ_436 /* DispatchQueueConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_147 /* DispatchQueueConfiguration.swift */; };
-		OBJ_437 /* Disposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_148 /* Disposable.swift */; };
-		OBJ_438 /* Disposables.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_149 /* Disposables.swift */; };
-		OBJ_439 /* DisposeBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_150 /* DisposeBag.swift */; };
-		OBJ_440 /* DisposeBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_151 /* DisposeBase.swift */; };
-		OBJ_441 /* DistinctUntilChanged.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_152 /* DistinctUntilChanged.swift */; };
-		OBJ_442 /* Do.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_153 /* Do.swift */; };
-		OBJ_443 /* ElementAt.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_154 /* ElementAt.swift */; };
-		OBJ_444 /* Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_155 /* Empty.swift */; };
-		OBJ_445 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_156 /* Error.swift */; };
-		OBJ_446 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_157 /* Errors.swift */; };
-		OBJ_447 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_158 /* Event.swift */; };
-		OBJ_448 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_159 /* Filter.swift */; };
-		OBJ_449 /* Generate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_160 /* Generate.swift */; };
-		OBJ_450 /* HistoricalScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_161 /* HistoricalScheduler.swift */; };
-		OBJ_451 /* HistoricalSchedulerTimeConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_162 /* HistoricalSchedulerTimeConverter.swift */; };
-		OBJ_452 /* ImmediateScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_163 /* ImmediateScheduler.swift */; };
-		OBJ_453 /* ImmediateSchedulerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_164 /* ImmediateSchedulerType.swift */; };
-		OBJ_454 /* InfiniteSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_165 /* InfiniteSequence.swift */; };
-		OBJ_455 /* InvocableScheduledItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_166 /* InvocableScheduledItem.swift */; };
-		OBJ_456 /* InvocableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_167 /* InvocableType.swift */; };
-		OBJ_457 /* Just.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_168 /* Just.swift */; };
-		OBJ_458 /* Lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_169 /* Lock.swift */; };
-		OBJ_459 /* LockOwnerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_170 /* LockOwnerType.swift */; };
-		OBJ_460 /* MainScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_171 /* MainScheduler.swift */; };
-		OBJ_461 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_172 /* Map.swift */; };
-		OBJ_462 /* Merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_173 /* Merge.swift */; };
-		OBJ_463 /* Multicast.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_174 /* Multicast.swift */; };
-		OBJ_464 /* Never.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_175 /* Never.swift */; };
-		OBJ_465 /* NopDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_176 /* NopDisposable.swift */; };
-		OBJ_466 /* Observable+Aggregate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_177 /* Observable+Aggregate.swift */; };
-		OBJ_467 /* Observable+Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_178 /* Observable+Binding.swift */; };
-		OBJ_468 /* Observable+Concurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_179 /* Observable+Concurrency.swift */; };
-		OBJ_469 /* Observable+Creation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_180 /* Observable+Creation.swift */; };
-		OBJ_470 /* Observable+Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_181 /* Observable+Debug.swift */; };
-		OBJ_471 /* Observable+Multiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_182 /* Observable+Multiple.swift */; };
-		OBJ_472 /* Observable+Single.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_183 /* Observable+Single.swift */; };
-		OBJ_473 /* Observable+StandardSequenceOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_184 /* Observable+StandardSequenceOperators.swift */; };
-		OBJ_474 /* Observable+Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_185 /* Observable+Time.swift */; };
-		OBJ_475 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_186 /* Observable.swift */; };
-		OBJ_476 /* ObservableConvertibleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_187 /* ObservableConvertibleType.swift */; };
-		OBJ_477 /* ObservableType+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_188 /* ObservableType+Extensions.swift */; };
-		OBJ_478 /* ObservableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_189 /* ObservableType.swift */; };
-		OBJ_479 /* ObserveOn.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_190 /* ObserveOn.swift */; };
-		OBJ_480 /* ObserveOnSerialDispatchQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_191 /* ObserveOnSerialDispatchQueue.swift */; };
-		OBJ_481 /* ObserverBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_192 /* ObserverBase.swift */; };
-		OBJ_482 /* ObserverType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_193 /* ObserverType.swift */; };
-		OBJ_483 /* OperationQueueScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_194 /* OperationQueueScheduler.swift */; };
-		OBJ_484 /* Platform.Darwin.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_195 /* Platform.Darwin.swift */; };
-		OBJ_485 /* Platform.Linux.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_196 /* Platform.Linux.swift */; };
-		OBJ_486 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_197 /* PriorityQueue.swift */; };
-		OBJ_487 /* Producer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_198 /* Producer.swift */; };
-		OBJ_488 /* PublishSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_199 /* PublishSubject.swift */; };
-		OBJ_489 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_200 /* Queue.swift */; };
-		OBJ_490 /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_201 /* Range.swift */; };
-		OBJ_491 /* Reactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_202 /* Reactive.swift */; };
-		OBJ_492 /* RecursiveScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_203 /* RecursiveScheduler.swift */; };
-		OBJ_493 /* Reduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_204 /* Reduce.swift */; };
-		OBJ_494 /* RefCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_205 /* RefCount.swift */; };
-		OBJ_495 /* RefCountDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_206 /* RefCountDisposable.swift */; };
-		OBJ_496 /* Repeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_207 /* Repeat.swift */; };
-		OBJ_497 /* ReplaySubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_208 /* ReplaySubject.swift */; };
-		OBJ_498 /* RetryWhen.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_209 /* RetryWhen.swift */; };
-		OBJ_499 /* Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_210 /* Rx.swift */; };
-		OBJ_500 /* RxMutableBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_211 /* RxMutableBox.swift */; };
-		OBJ_501 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_212 /* Sample.swift */; };
-		OBJ_502 /* Scan.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_213 /* Scan.swift */; };
-		OBJ_503 /* ScheduledDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_214 /* ScheduledDisposable.swift */; };
-		OBJ_504 /* ScheduledItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_215 /* ScheduledItem.swift */; };
-		OBJ_505 /* ScheduledItemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_216 /* ScheduledItemType.swift */; };
-		OBJ_506 /* SchedulerServices+Emulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_217 /* SchedulerServices+Emulation.swift */; };
-		OBJ_507 /* SchedulerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_218 /* SchedulerType.swift */; };
-		OBJ_508 /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_219 /* Sequence.swift */; };
-		OBJ_509 /* SerialDispatchQueueScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_220 /* SerialDispatchQueueScheduler.swift */; };
-		OBJ_510 /* SerialDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_221 /* SerialDisposable.swift */; };
-		OBJ_511 /* ShareReplay1.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_222 /* ShareReplay1.swift */; };
-		OBJ_512 /* ShareReplay1WhileConnected.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_223 /* ShareReplay1WhileConnected.swift */; };
-		OBJ_513 /* SingleAssignmentDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_224 /* SingleAssignmentDisposable.swift */; };
-		OBJ_514 /* SingleAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_225 /* SingleAsync.swift */; };
-		OBJ_515 /* Sink.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_226 /* Sink.swift */; };
-		OBJ_516 /* Skip.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_227 /* Skip.swift */; };
-		OBJ_517 /* SkipUntil.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_228 /* SkipUntil.swift */; };
-		OBJ_518 /* SkipWhile.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_229 /* SkipWhile.swift */; };
-		OBJ_519 /* StartWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_230 /* StartWith.swift */; };
-		OBJ_520 /* String+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_231 /* String+Rx.swift */; };
-		OBJ_521 /* SubjectType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_232 /* SubjectType.swift */; };
-		OBJ_522 /* SubscribeOn.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_233 /* SubscribeOn.swift */; };
-		OBJ_523 /* SubscriptionDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_234 /* SubscriptionDisposable.swift */; };
-		OBJ_524 /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_235 /* Switch.swift */; };
-		OBJ_525 /* SynchronizedDisposeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_236 /* SynchronizedDisposeType.swift */; };
-		OBJ_526 /* SynchronizedOnType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_237 /* SynchronizedOnType.swift */; };
-		OBJ_527 /* SynchronizedSubscribeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_238 /* SynchronizedSubscribeType.swift */; };
-		OBJ_528 /* SynchronizedUnsubscribeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_239 /* SynchronizedUnsubscribeType.swift */; };
-		OBJ_529 /* TailRecursiveSink.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_240 /* TailRecursiveSink.swift */; };
-		OBJ_530 /* Take.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_241 /* Take.swift */; };
-		OBJ_531 /* TakeLast.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_242 /* TakeLast.swift */; };
-		OBJ_532 /* TakeUntil.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_243 /* TakeUntil.swift */; };
-		OBJ_533 /* TakeWhile.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_244 /* TakeWhile.swift */; };
-		OBJ_534 /* Throttle.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_245 /* Throttle.swift */; };
-		OBJ_535 /* Timeout.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_246 /* Timeout.swift */; };
-		OBJ_536 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_247 /* Timer.swift */; };
-		OBJ_537 /* ToArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_248 /* ToArray.swift */; };
-		OBJ_538 /* Using.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_249 /* Using.swift */; };
-		OBJ_539 /* Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_250 /* Variable.swift */; };
-		OBJ_540 /* VirtualTimeConverterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_251 /* VirtualTimeConverterType.swift */; };
-		OBJ_541 /* VirtualTimeScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_252 /* VirtualTimeScheduler.swift */; };
-		OBJ_542 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_253 /* Window.swift */; };
-		OBJ_543 /* WithLatestFrom.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_254 /* WithLatestFrom.swift */; };
-		OBJ_544 /* Zip+arity.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_255 /* Zip+arity.swift */; };
-		OBJ_545 /* Zip+Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_256 /* Zip+Collection.swift */; };
-		OBJ_546 /* Zip.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_257 /* Zip.swift */; };
-		OBJ_553 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_259 /* main.swift */; };
-		OBJ_554 /* ChallengeDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_261 /* ChallengeDataService.swift */; };
-		OBJ_555 /* ChallengeFileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_262 /* ChallengeFileService.swift */; };
-		OBJ_556 /* ChallengeWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_263 /* ChallengeWebService.swift */; };
-		OBJ_557 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_265 /* Solution.swift */; };
-		OBJ_558 /* Day1Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_267 /* Day1Solution.swift */; };
-		OBJ_560 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_274 /* RxSwift.framework */; };
-		OBJ_561 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_271 /* RxBlocking.framework */; };
+		OBJ_301 /* BlockingObservable+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* BlockingObservable+Operators.swift */; };
+		OBJ_302 /* BlockingObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* BlockingObservable.swift */; };
+		OBJ_303 /* ObservableConvertibleType+Blocking.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* ObservableConvertibleType+Blocking.swift */; };
+		OBJ_304 /* Platform.Darwin.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* Platform.Darwin.swift */; };
+		OBJ_305 /* Platform.Linux.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* Platform.Linux.swift */; };
+		OBJ_306 /* RunLoopLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* RunLoopLock.swift */; };
+		OBJ_308 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_294 /* RxSwift.framework */; };
+		OBJ_424 /* AddRef.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_115 /* AddRef.swift */; };
+		OBJ_425 /* Amb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_116 /* Amb.swift */; };
+		OBJ_426 /* AnonymousDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_117 /* AnonymousDisposable.swift */; };
+		OBJ_427 /* AnonymousInvocable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_118 /* AnonymousInvocable.swift */; };
+		OBJ_428 /* AnonymousObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_119 /* AnonymousObservable.swift */; };
+		OBJ_429 /* AnonymousObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_120 /* AnonymousObserver.swift */; };
+		OBJ_430 /* AnyObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_121 /* AnyObserver.swift */; };
+		OBJ_431 /* AsyncLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_122 /* AsyncLock.swift */; };
+		OBJ_432 /* Bag+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_123 /* Bag+Rx.swift */; };
+		OBJ_433 /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_124 /* Bag.swift */; };
+		OBJ_434 /* BehaviorSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_125 /* BehaviorSubject.swift */; };
+		OBJ_435 /* BinaryDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_126 /* BinaryDisposable.swift */; };
+		OBJ_436 /* BooleanDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_127 /* BooleanDisposable.swift */; };
+		OBJ_437 /* Buffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_128 /* Buffer.swift */; };
+		OBJ_438 /* Cancelable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_129 /* Cancelable.swift */; };
+		OBJ_439 /* Catch.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_130 /* Catch.swift */; };
+		OBJ_440 /* CombineLatest+arity.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_131 /* CombineLatest+arity.swift */; };
+		OBJ_441 /* CombineLatest+Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_132 /* CombineLatest+Collection.swift */; };
+		OBJ_442 /* CombineLatest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_133 /* CombineLatest.swift */; };
+		OBJ_443 /* CompositeDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_134 /* CompositeDisposable.swift */; };
+		OBJ_444 /* Concat.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_135 /* Concat.swift */; };
+		OBJ_445 /* ConcurrentDispatchQueueScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_136 /* ConcurrentDispatchQueueScheduler.swift */; };
+		OBJ_446 /* ConcurrentMainScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_137 /* ConcurrentMainScheduler.swift */; };
+		OBJ_447 /* ConnectableObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_138 /* ConnectableObservable.swift */; };
+		OBJ_448 /* ConnectableObservableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_139 /* ConnectableObservableType.swift */; };
+		OBJ_449 /* CurrentThreadScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_140 /* CurrentThreadScheduler.swift */; };
+		OBJ_450 /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_141 /* Debug.swift */; };
+		OBJ_451 /* Debunce.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_142 /* Debunce.swift */; };
+		OBJ_452 /* Deferred.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_143 /* Deferred.swift */; };
+		OBJ_453 /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_144 /* Delay.swift */; };
+		OBJ_454 /* DelaySubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_145 /* DelaySubscription.swift */; };
+		OBJ_455 /* DispatchQueue+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_146 /* DispatchQueue+Extensions.swift */; };
+		OBJ_456 /* DispatchQueueConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_147 /* DispatchQueueConfiguration.swift */; };
+		OBJ_457 /* Disposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_148 /* Disposable.swift */; };
+		OBJ_458 /* Disposables.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_149 /* Disposables.swift */; };
+		OBJ_459 /* DisposeBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_150 /* DisposeBag.swift */; };
+		OBJ_460 /* DisposeBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_151 /* DisposeBase.swift */; };
+		OBJ_461 /* DistinctUntilChanged.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_152 /* DistinctUntilChanged.swift */; };
+		OBJ_462 /* Do.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_153 /* Do.swift */; };
+		OBJ_463 /* ElementAt.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_154 /* ElementAt.swift */; };
+		OBJ_464 /* Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_155 /* Empty.swift */; };
+		OBJ_465 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_156 /* Error.swift */; };
+		OBJ_466 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_157 /* Errors.swift */; };
+		OBJ_467 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_158 /* Event.swift */; };
+		OBJ_468 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_159 /* Filter.swift */; };
+		OBJ_469 /* Generate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_160 /* Generate.swift */; };
+		OBJ_470 /* HistoricalScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_161 /* HistoricalScheduler.swift */; };
+		OBJ_471 /* HistoricalSchedulerTimeConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_162 /* HistoricalSchedulerTimeConverter.swift */; };
+		OBJ_472 /* ImmediateScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_163 /* ImmediateScheduler.swift */; };
+		OBJ_473 /* ImmediateSchedulerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_164 /* ImmediateSchedulerType.swift */; };
+		OBJ_474 /* InfiniteSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_165 /* InfiniteSequence.swift */; };
+		OBJ_475 /* InvocableScheduledItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_166 /* InvocableScheduledItem.swift */; };
+		OBJ_476 /* InvocableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_167 /* InvocableType.swift */; };
+		OBJ_477 /* Just.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_168 /* Just.swift */; };
+		OBJ_478 /* Lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_169 /* Lock.swift */; };
+		OBJ_479 /* LockOwnerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_170 /* LockOwnerType.swift */; };
+		OBJ_480 /* MainScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_171 /* MainScheduler.swift */; };
+		OBJ_481 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_172 /* Map.swift */; };
+		OBJ_482 /* Merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_173 /* Merge.swift */; };
+		OBJ_483 /* Multicast.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_174 /* Multicast.swift */; };
+		OBJ_484 /* Never.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_175 /* Never.swift */; };
+		OBJ_485 /* NopDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_176 /* NopDisposable.swift */; };
+		OBJ_486 /* Observable+Aggregate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_177 /* Observable+Aggregate.swift */; };
+		OBJ_487 /* Observable+Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_178 /* Observable+Binding.swift */; };
+		OBJ_488 /* Observable+Concurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_179 /* Observable+Concurrency.swift */; };
+		OBJ_489 /* Observable+Creation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_180 /* Observable+Creation.swift */; };
+		OBJ_490 /* Observable+Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_181 /* Observable+Debug.swift */; };
+		OBJ_491 /* Observable+Multiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_182 /* Observable+Multiple.swift */; };
+		OBJ_492 /* Observable+Single.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_183 /* Observable+Single.swift */; };
+		OBJ_493 /* Observable+StandardSequenceOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_184 /* Observable+StandardSequenceOperators.swift */; };
+		OBJ_494 /* Observable+Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_185 /* Observable+Time.swift */; };
+		OBJ_495 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_186 /* Observable.swift */; };
+		OBJ_496 /* ObservableConvertibleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_187 /* ObservableConvertibleType.swift */; };
+		OBJ_497 /* ObservableType+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_188 /* ObservableType+Extensions.swift */; };
+		OBJ_498 /* ObservableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_189 /* ObservableType.swift */; };
+		OBJ_499 /* ObserveOn.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_190 /* ObserveOn.swift */; };
+		OBJ_500 /* ObserveOnSerialDispatchQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_191 /* ObserveOnSerialDispatchQueue.swift */; };
+		OBJ_501 /* ObserverBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_192 /* ObserverBase.swift */; };
+		OBJ_502 /* ObserverType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_193 /* ObserverType.swift */; };
+		OBJ_503 /* OperationQueueScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_194 /* OperationQueueScheduler.swift */; };
+		OBJ_504 /* Platform.Darwin.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_195 /* Platform.Darwin.swift */; };
+		OBJ_505 /* Platform.Linux.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_196 /* Platform.Linux.swift */; };
+		OBJ_506 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_197 /* PriorityQueue.swift */; };
+		OBJ_507 /* Producer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_198 /* Producer.swift */; };
+		OBJ_508 /* PublishSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_199 /* PublishSubject.swift */; };
+		OBJ_509 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_200 /* Queue.swift */; };
+		OBJ_510 /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_201 /* Range.swift */; };
+		OBJ_511 /* Reactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_202 /* Reactive.swift */; };
+		OBJ_512 /* RecursiveScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_203 /* RecursiveScheduler.swift */; };
+		OBJ_513 /* Reduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_204 /* Reduce.swift */; };
+		OBJ_514 /* RefCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_205 /* RefCount.swift */; };
+		OBJ_515 /* RefCountDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_206 /* RefCountDisposable.swift */; };
+		OBJ_516 /* Repeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_207 /* Repeat.swift */; };
+		OBJ_517 /* ReplaySubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_208 /* ReplaySubject.swift */; };
+		OBJ_518 /* RetryWhen.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_209 /* RetryWhen.swift */; };
+		OBJ_519 /* Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_210 /* Rx.swift */; };
+		OBJ_520 /* RxMutableBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_211 /* RxMutableBox.swift */; };
+		OBJ_521 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_212 /* Sample.swift */; };
+		OBJ_522 /* Scan.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_213 /* Scan.swift */; };
+		OBJ_523 /* ScheduledDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_214 /* ScheduledDisposable.swift */; };
+		OBJ_524 /* ScheduledItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_215 /* ScheduledItem.swift */; };
+		OBJ_525 /* ScheduledItemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_216 /* ScheduledItemType.swift */; };
+		OBJ_526 /* SchedulerServices+Emulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_217 /* SchedulerServices+Emulation.swift */; };
+		OBJ_527 /* SchedulerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_218 /* SchedulerType.swift */; };
+		OBJ_528 /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_219 /* Sequence.swift */; };
+		OBJ_529 /* SerialDispatchQueueScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_220 /* SerialDispatchQueueScheduler.swift */; };
+		OBJ_530 /* SerialDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_221 /* SerialDisposable.swift */; };
+		OBJ_531 /* ShareReplay1.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_222 /* ShareReplay1.swift */; };
+		OBJ_532 /* ShareReplay1WhileConnected.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_223 /* ShareReplay1WhileConnected.swift */; };
+		OBJ_533 /* SingleAssignmentDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_224 /* SingleAssignmentDisposable.swift */; };
+		OBJ_534 /* SingleAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_225 /* SingleAsync.swift */; };
+		OBJ_535 /* Sink.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_226 /* Sink.swift */; };
+		OBJ_536 /* Skip.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_227 /* Skip.swift */; };
+		OBJ_537 /* SkipUntil.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_228 /* SkipUntil.swift */; };
+		OBJ_538 /* SkipWhile.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_229 /* SkipWhile.swift */; };
+		OBJ_539 /* StartWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_230 /* StartWith.swift */; };
+		OBJ_540 /* String+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_231 /* String+Rx.swift */; };
+		OBJ_541 /* SubjectType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_232 /* SubjectType.swift */; };
+		OBJ_542 /* SubscribeOn.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_233 /* SubscribeOn.swift */; };
+		OBJ_543 /* SubscriptionDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_234 /* SubscriptionDisposable.swift */; };
+		OBJ_544 /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_235 /* Switch.swift */; };
+		OBJ_545 /* SynchronizedDisposeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_236 /* SynchronizedDisposeType.swift */; };
+		OBJ_546 /* SynchronizedOnType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_237 /* SynchronizedOnType.swift */; };
+		OBJ_547 /* SynchronizedSubscribeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_238 /* SynchronizedSubscribeType.swift */; };
+		OBJ_548 /* SynchronizedUnsubscribeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_239 /* SynchronizedUnsubscribeType.swift */; };
+		OBJ_549 /* TailRecursiveSink.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_240 /* TailRecursiveSink.swift */; };
+		OBJ_550 /* Take.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_241 /* Take.swift */; };
+		OBJ_551 /* TakeLast.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_242 /* TakeLast.swift */; };
+		OBJ_552 /* TakeUntil.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_243 /* TakeUntil.swift */; };
+		OBJ_553 /* TakeWhile.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_244 /* TakeWhile.swift */; };
+		OBJ_554 /* Throttle.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_245 /* Throttle.swift */; };
+		OBJ_555 /* Timeout.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_246 /* Timeout.swift */; };
+		OBJ_556 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_247 /* Timer.swift */; };
+		OBJ_557 /* ToArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_248 /* ToArray.swift */; };
+		OBJ_558 /* Using.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_249 /* Using.swift */; };
+		OBJ_559 /* Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_250 /* Variable.swift */; };
+		OBJ_560 /* VirtualTimeConverterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_251 /* VirtualTimeConverterType.swift */; };
+		OBJ_561 /* VirtualTimeScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_252 /* VirtualTimeScheduler.swift */; };
+		OBJ_562 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_253 /* Window.swift */; };
+		OBJ_563 /* WithLatestFrom.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_254 /* WithLatestFrom.swift */; };
+		OBJ_564 /* Zip+arity.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_255 /* Zip+arity.swift */; };
+		OBJ_565 /* Zip+Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_256 /* Zip+Collection.swift */; };
+		OBJ_566 /* Zip.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_257 /* Zip.swift */; };
+		OBJ_573 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_259 /* main.swift */; };
+		OBJ_574 /* ChallengeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_261 /* ChallengeData.swift */; };
+		OBJ_575 /* ChallengeDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_262 /* ChallengeDataService.swift */; };
+		OBJ_576 /* ChallengeFileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_263 /* ChallengeFileService.swift */; };
+		OBJ_577 /* ChallengeWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_264 /* ChallengeWebService.swift */; };
+		OBJ_578 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_266 /* Solution.swift */; };
+		OBJ_579 /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_268 /* Coordinate.swift */; };
+		OBJ_580 /* Day1Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_269 /* Day1Solution.swift */; };
+		OBJ_581 /* Walk.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_270 /* Walk.swift */; };
+		OBJ_582 /* WalkSlave.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_271 /* WalkSlave.swift */; };
+		OBJ_583 /* Day2Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_273 /* Day2Solution.swift */; };
+		OBJ_584 /* KeyPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_274 /* KeyPad.swift */; };
+		OBJ_585 /* KeySlave.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_275 /* KeySlave.swift */; };
+		OBJ_586 /* ComplexTriangleSlave.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_277 /* ComplexTriangleSlave.swift */; };
+		OBJ_587 /* Day3Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_278 /* Day3Solution.swift */; };
+		OBJ_588 /* SimpleTriangleSlave.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_279 /* SimpleTriangleSlave.swift */; };
+		OBJ_589 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_280 /* Triangle.swift */; };
+		OBJ_590 /* Day4Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_282 /* Day4Solution.swift */; };
+		OBJ_591 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_283 /* Room.swift */; };
+		OBJ_592 /* RoomSlave.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_284 /* RoomSlave.swift */; };
+		OBJ_593 /* Day5Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_286 /* Day5Solution.swift */; };
+		OBJ_594 /* HashSlave.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_287 /* HashSlave.swift */; };
+		OBJ_596 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_294 /* RxSwift.framework */; };
+		OBJ_597 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_291 /* RxBlocking.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F63B80D51DF9F9AE00DE1E64 /* PBXContainerItemProxy */ = {
+		F6517A0C1DFD7D99002CB8EA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_290;
+			remoteGlobalIDString = OBJ_310;
 			remoteInfo = RxSwift;
 		};
-		F63B80D91DF9F9AE00DE1E64 /* PBXContainerItemProxy */ = {
+		F6517A101DFD7D99002CB8EA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_290;
+			remoteGlobalIDString = OBJ_310;
 			remoteInfo = RxSwift;
 		};
-		F63B80DA1DF9F9AE00DE1E64 /* PBXContainerItemProxy */ = {
+		F6517A111DFD7D99002CB8EA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_276;
+			remoteGlobalIDString = OBJ_296;
 			remoteInfo = RxBlocking;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F63B80DF1DF9FB7000DE1E64 /* ChallengeData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeData.swift; sourceTree = "<group>"; };
-		F6B459281DFADE4A00B1BE1B /* Coordinate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
-		F6B4592A1DFAE38800B1BE1B /* Walk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Walk.swift; sourceTree = "<group>"; };
-		F6B4592D1DFAEC4E00B1BE1B /* WalkSlave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkSlave.swift; sourceTree = "<group>"; };
-		F6B459311DFB4BAF00B1BE1B /* Day2Solution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day2Solution.swift; sourceTree = "<group>"; };
-		F6B459331DFB4BF200B1BE1B /* KeyPad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyPad.swift; sourceTree = "<group>"; };
-		F6B459351DFB4D9B00B1BE1B /* KeySlave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeySlave.swift; sourceTree = "<group>"; };
-		F6B459381DFB613D00B1BE1B /* Day3Solution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day3Solution.swift; sourceTree = "<group>"; };
-		F6B4593A1DFB618500B1BE1B /* Triangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
-		F6B4593C1DFB61EF00B1BE1B /* SimpleTriangleSlave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTriangleSlave.swift; sourceTree = "<group>"; };
-		F6B4593E1DFB678C00B1BE1B /* ComplexTriangleSlave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComplexTriangleSlave.swift; sourceTree = "<group>"; };
-		F6B459411DFBFFDE00B1BE1B /* Day4Solution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day4Solution.swift; sourceTree = "<group>"; };
-		F6B459431DFC008600B1BE1B /* Room.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
-		F6B459451DFC01DB00B1BE1B /* RoomSlave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomSlave.swift; sourceTree = "<group>"; };
 		OBJ_10 /* BlockingObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockingObservable.swift; sourceTree = "<group>"; };
 		OBJ_100 /* Variable+Driver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Variable+Driver.swift"; sourceTree = "<group>"; };
 		OBJ_101 /* Variable+SharedSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Variable+SharedSequence.swift"; sourceTree = "<group>"; };
@@ -233,7 +221,7 @@
 		OBJ_110 /* _RXKVOObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _RXKVOObserver.h; sourceTree = "<group>"; };
 		OBJ_111 /* _RXObjCRuntime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _RXObjCRuntime.h; sourceTree = "<group>"; };
 		OBJ_112 /* RxCocoaRuntime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxCocoaRuntime.h; sourceTree = "<group>"; };
-		OBJ_113 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = /Users/wesleyhilhorst/Documents/Projects/Other/AoC2016/AoC2016/AoC2016.xcodeproj/GeneratedModuleMap/RxCocoaRuntime/module.modulemap; sourceTree = "<group>"; };
+		OBJ_113 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = /Users/wesleyhilhorst/Documents/Projects/Other/AoC2016/AoC2016.xcodeproj/GeneratedModuleMap/RxCocoaRuntime/module.modulemap; sourceTree = "<group>"; };
 		OBJ_115 /* AddRef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRef.swift; sourceTree = "<group>"; };
 		OBJ_116 /* Amb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amb.swift; sourceTree = "<group>"; };
 		OBJ_117 /* AnonymousDisposable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnonymousDisposable.swift; sourceTree = "<group>"; };
@@ -392,18 +380,34 @@
 		OBJ_257 /* Zip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zip.swift; sourceTree = "<group>"; };
 		OBJ_259 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		OBJ_26 /* KVORepresentable+CoreGraphics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KVORepresentable+CoreGraphics.swift"; sourceTree = "<group>"; };
-		OBJ_261 /* ChallengeDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeDataService.swift; sourceTree = "<group>"; };
-		OBJ_262 /* ChallengeFileService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeFileService.swift; sourceTree = "<group>"; };
-		OBJ_263 /* ChallengeWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeWebService.swift; sourceTree = "<group>"; };
-		OBJ_265 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
-		OBJ_267 /* Day1Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day1Solution.swift; sourceTree = "<group>"; };
-		OBJ_269 /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Data; sourceTree = SOURCE_ROOT; };
+		OBJ_261 /* ChallengeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeData.swift; sourceTree = "<group>"; };
+		OBJ_262 /* ChallengeDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeDataService.swift; sourceTree = "<group>"; };
+		OBJ_263 /* ChallengeFileService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeFileService.swift; sourceTree = "<group>"; };
+		OBJ_264 /* ChallengeWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeWebService.swift; sourceTree = "<group>"; };
+		OBJ_266 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		OBJ_268 /* Coordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
+		OBJ_269 /* Day1Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day1Solution.swift; sourceTree = "<group>"; };
 		OBJ_27 /* KVORepresentable+Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KVORepresentable+Swift.swift"; sourceTree = "<group>"; };
-		OBJ_271 /* RxBlocking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxBlocking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_274 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_275 /* AoC2016 */ = {isa = PBXFileReference; lastKnownFileType = text; path = AoC2016; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_270 /* Walk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Walk.swift; sourceTree = "<group>"; };
+		OBJ_271 /* WalkSlave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkSlave.swift; sourceTree = "<group>"; };
+		OBJ_273 /* Day2Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day2Solution.swift; sourceTree = "<group>"; };
+		OBJ_274 /* KeyPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyPad.swift; sourceTree = "<group>"; };
+		OBJ_275 /* KeySlave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeySlave.swift; sourceTree = "<group>"; };
+		OBJ_277 /* ComplexTriangleSlave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexTriangleSlave.swift; sourceTree = "<group>"; };
+		OBJ_278 /* Day3Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3Solution.swift; sourceTree = "<group>"; };
+		OBJ_279 /* SimpleTriangleSlave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTriangleSlave.swift; sourceTree = "<group>"; };
 		OBJ_28 /* KVORepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVORepresentable.swift; sourceTree = "<group>"; };
+		OBJ_280 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		OBJ_282 /* Day4Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day4Solution.swift; sourceTree = "<group>"; };
+		OBJ_283 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		OBJ_284 /* RoomSlave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomSlave.swift; sourceTree = "<group>"; };
+		OBJ_286 /* Day5Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day5Solution.swift; sourceTree = "<group>"; };
+		OBJ_287 /* HashSlave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashSlave.swift; sourceTree = "<group>"; };
+		OBJ_289 /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Data; sourceTree = SOURCE_ROOT; };
 		OBJ_29 /* Logging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logging.swift; sourceTree = "<group>"; };
+		OBJ_291 /* RxBlocking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxBlocking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_294 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_295 /* AoC2016 */ = {isa = PBXFileReference; lastKnownFileType = text; path = AoC2016; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_30 /* NSButton+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSButton+Rx.swift"; sourceTree = "<group>"; };
 		OBJ_31 /* NSControl+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSControl+Rx.swift"; sourceTree = "<group>"; };
 		OBJ_32 /* NSImageView+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSImageView+Rx.swift"; sourceTree = "<group>"; };
@@ -479,64 +483,33 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		OBJ_287 /* Frameworks */ = {
+		OBJ_307 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_288 /* RxSwift.framework in Frameworks */,
+				OBJ_308 /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_547 /* Frameworks */ = {
+		OBJ_567 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_559 /* Frameworks */ = {
+		OBJ_595 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_560 /* RxSwift.framework in Frameworks */,
-				OBJ_561 /* RxBlocking.framework in Frameworks */,
+				OBJ_596 /* RxSwift.framework in Frameworks */,
+				OBJ_597 /* RxBlocking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F6B459301DFB4B9F00B1BE1B /* Day2 */ = {
-			isa = PBXGroup;
-			children = (
-				F6B459311DFB4BAF00B1BE1B /* Day2Solution.swift */,
-				F6B459351DFB4D9B00B1BE1B /* KeySlave.swift */,
-				F6B459331DFB4BF200B1BE1B /* KeyPad.swift */,
-			);
-			path = Day2;
-			sourceTree = "<group>";
-		};
-		F6B459371DFB613400B1BE1B /* Day3 */ = {
-			isa = PBXGroup;
-			children = (
-				F6B459381DFB613D00B1BE1B /* Day3Solution.swift */,
-				F6B4593E1DFB678C00B1BE1B /* ComplexTriangleSlave.swift */,
-				F6B4593C1DFB61EF00B1BE1B /* SimpleTriangleSlave.swift */,
-				F6B4593A1DFB618500B1BE1B /* Triangle.swift */,
-			);
-			path = Day3;
-			sourceTree = "<group>";
-		};
-		F6B459401DFBFFD600B1BE1B /* Day4 */ = {
-			isa = PBXGroup;
-			children = (
-				F6B459411DFBFFDE00B1BE1B /* Day4Solution.swift */,
-				F6B459431DFC008600B1BE1B /* Room.swift */,
-				F6B459451DFC01DB00B1BE1B /* RoomSlave.swift */,
-			);
-			path = Day4;
-			sourceTree = "<group>";
-		};
 		OBJ_102 /* RxCocoaRuntime */ = {
 			isa = PBXGroup;
 			children = (
@@ -813,7 +786,7 @@
 			children = (
 				OBJ_259 /* main.swift */,
 				OBJ_260 /* Services */,
-				OBJ_264 /* Solutions */,
+				OBJ_265 /* Solutions */,
 			);
 			name = AoC2016;
 			path = Sources/AoC2016;
@@ -822,63 +795,105 @@
 		OBJ_260 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_261 /* ChallengeDataService.swift */,
-				OBJ_262 /* ChallengeFileService.swift */,
-				OBJ_263 /* ChallengeWebService.swift */,
-				F63B80DF1DF9FB7000DE1E64 /* ChallengeData.swift */,
+				OBJ_261 /* ChallengeData.swift */,
+				OBJ_262 /* ChallengeDataService.swift */,
+				OBJ_263 /* ChallengeFileService.swift */,
+				OBJ_264 /* ChallengeWebService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
 		};
-		OBJ_264 /* Solutions */ = {
+		OBJ_265 /* Solutions */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_266 /* Day1 */,
-				F6B459301DFB4B9F00B1BE1B /* Day2 */,
-				F6B459371DFB613400B1BE1B /* Day3 */,
-				F6B459401DFBFFD600B1BE1B /* Day4 */,
-				OBJ_265 /* Solution.swift */,
+				OBJ_266 /* Solution.swift */,
+				OBJ_267 /* Day1 */,
+				OBJ_272 /* Day2 */,
+				OBJ_276 /* Day3 */,
+				OBJ_281 /* Day4 */,
+				OBJ_285 /* Day5 */,
 			);
 			path = Solutions;
 			sourceTree = "<group>";
 		};
-		OBJ_266 /* Day1 */ = {
+		OBJ_267 /* Day1 */ = {
 			isa = PBXGroup;
 			children = (
-				F6B459281DFADE4A00B1BE1B /* Coordinate.swift */,
-				OBJ_267 /* Day1Solution.swift */,
-				F6B4592A1DFAE38800B1BE1B /* Walk.swift */,
-				F6B4592D1DFAEC4E00B1BE1B /* WalkSlave.swift */,
+				OBJ_268 /* Coordinate.swift */,
+				OBJ_269 /* Day1Solution.swift */,
+				OBJ_270 /* Walk.swift */,
+				OBJ_271 /* WalkSlave.swift */,
 			);
 			path = Day1;
 			sourceTree = "<group>";
 		};
-		OBJ_268 /* Tests */ = {
+		OBJ_272 /* Day2 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_273 /* Day2Solution.swift */,
+				OBJ_274 /* KeyPad.swift */,
+				OBJ_275 /* KeySlave.swift */,
+			);
+			path = Day2;
+			sourceTree = "<group>";
+		};
+		OBJ_276 /* Day3 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_277 /* ComplexTriangleSlave.swift */,
+				OBJ_278 /* Day3Solution.swift */,
+				OBJ_279 /* SimpleTriangleSlave.swift */,
+				OBJ_280 /* Triangle.swift */,
+			);
+			path = Day3;
+			sourceTree = "<group>";
+		};
+		OBJ_281 /* Day4 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_282 /* Day4Solution.swift */,
+				OBJ_283 /* Room.swift */,
+				OBJ_284 /* RoomSlave.swift */,
+			);
+			path = Day4;
+			sourceTree = "<group>";
+		};
+		OBJ_285 /* Day5 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_286 /* Day5Solution.swift */,
+				OBJ_287 /* HashSlave.swift */,
+			);
+			path = Day5;
+			sourceTree = "<group>";
+		};
+		OBJ_288 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Tests;
 			sourceTree = "<group>";
 		};
-		OBJ_270 /* Products */ = {
+		OBJ_290 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_271 /* RxBlocking.framework */,
-				OBJ_274 /* RxSwift.framework */,
-				OBJ_275 /* AoC2016 */,
+				OBJ_291 /* RxBlocking.framework */,
+				OBJ_294 /* RxSwift.framework */,
+				OBJ_295 /* AoC2016 */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 = {
+		OBJ_5 /*  */ = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
-				OBJ_268 /* Tests */,
-				OBJ_269 /* Data */,
-				OBJ_270 /* Products */,
+				OBJ_288 /* Tests */,
+				OBJ_289 /* Data */,
+				OBJ_290 /* Products */,
 			);
+			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -910,29 +925,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		OBJ_276 /* RxBlocking */ = {
+		OBJ_296 /* RxBlocking */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_277 /* Build configuration list for PBXNativeTarget "RxBlocking" */;
+			buildConfigurationList = OBJ_297 /* Build configuration list for PBXNativeTarget "RxBlocking" */;
 			buildPhases = (
-				OBJ_280 /* Sources */,
-				OBJ_287 /* Frameworks */,
+				OBJ_300 /* Sources */,
+				OBJ_307 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_289 /* PBXTargetDependency */,
+				OBJ_309 /* PBXTargetDependency */,
 			);
 			name = RxBlocking;
 			productName = RxBlocking;
-			productReference = OBJ_271 /* RxBlocking.framework */;
+			productReference = OBJ_291 /* RxBlocking.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		OBJ_290 /* RxSwift */ = {
+		OBJ_310 /* RxSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_400 /* Build configuration list for PBXNativeTarget "RxSwift" */;
+			buildConfigurationList = OBJ_420 /* Build configuration list for PBXNativeTarget "RxSwift" */;
 			buildPhases = (
-				OBJ_403 /* Sources */,
-				OBJ_547 /* Frameworks */,
+				OBJ_423 /* Sources */,
+				OBJ_567 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -940,25 +955,25 @@
 			);
 			name = RxSwift;
 			productName = RxSwift;
-			productReference = OBJ_274 /* RxSwift.framework */;
+			productReference = OBJ_294 /* RxSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		OBJ_548 /* AoC2016 */ = {
+		OBJ_568 /* AoC2016 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_549 /* Build configuration list for PBXNativeTarget "AoC2016" */;
+			buildConfigurationList = OBJ_569 /* Build configuration list for PBXNativeTarget "AoC2016" */;
 			buildPhases = (
-				OBJ_552 /* Sources */,
-				OBJ_559 /* Frameworks */,
+				OBJ_572 /* Sources */,
+				OBJ_595 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_564 /* PBXTargetDependency */,
-				OBJ_565 /* PBXTargetDependency */,
+				OBJ_600 /* PBXTargetDependency */,
+				OBJ_601 /* PBXTargetDependency */,
 			);
 			name = AoC2016;
 			productName = AoC2016;
-			productReference = OBJ_275 /* AoC2016 */;
+			productReference = OBJ_295 /* AoC2016 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -976,231 +991,233 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5;
-			productRefGroup = OBJ_270 /* Products */;
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_290 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				OBJ_276 /* RxBlocking */,
-				OBJ_290 /* RxSwift */,
-				OBJ_548 /* AoC2016 */,
+				OBJ_296 /* RxBlocking */,
+				OBJ_310 /* RxSwift */,
+				OBJ_568 /* AoC2016 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		OBJ_280 /* Sources */ = {
+		OBJ_300 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_281 /* BlockingObservable+Operators.swift in Sources */,
-				OBJ_282 /* BlockingObservable.swift in Sources */,
-				OBJ_283 /* ObservableConvertibleType+Blocking.swift in Sources */,
-				OBJ_284 /* Platform.Darwin.swift in Sources */,
-				OBJ_285 /* Platform.Linux.swift in Sources */,
-				OBJ_286 /* RunLoopLock.swift in Sources */,
+				OBJ_301 /* BlockingObservable+Operators.swift in Sources */,
+				OBJ_302 /* BlockingObservable.swift in Sources */,
+				OBJ_303 /* ObservableConvertibleType+Blocking.swift in Sources */,
+				OBJ_304 /* Platform.Darwin.swift in Sources */,
+				OBJ_305 /* Platform.Linux.swift in Sources */,
+				OBJ_306 /* RunLoopLock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_403 /* Sources */ = {
+		OBJ_423 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_404 /* AddRef.swift in Sources */,
-				OBJ_405 /* Amb.swift in Sources */,
-				OBJ_406 /* AnonymousDisposable.swift in Sources */,
-				OBJ_407 /* AnonymousInvocable.swift in Sources */,
-				OBJ_408 /* AnonymousObservable.swift in Sources */,
-				OBJ_409 /* AnonymousObserver.swift in Sources */,
-				OBJ_410 /* AnyObserver.swift in Sources */,
-				OBJ_411 /* AsyncLock.swift in Sources */,
-				OBJ_412 /* Bag+Rx.swift in Sources */,
-				OBJ_413 /* Bag.swift in Sources */,
-				OBJ_414 /* BehaviorSubject.swift in Sources */,
-				OBJ_415 /* BinaryDisposable.swift in Sources */,
-				OBJ_416 /* BooleanDisposable.swift in Sources */,
-				OBJ_417 /* Buffer.swift in Sources */,
-				OBJ_418 /* Cancelable.swift in Sources */,
-				OBJ_419 /* Catch.swift in Sources */,
-				OBJ_420 /* CombineLatest+arity.swift in Sources */,
-				OBJ_421 /* CombineLatest+Collection.swift in Sources */,
-				OBJ_422 /* CombineLatest.swift in Sources */,
-				OBJ_423 /* CompositeDisposable.swift in Sources */,
-				OBJ_424 /* Concat.swift in Sources */,
-				OBJ_425 /* ConcurrentDispatchQueueScheduler.swift in Sources */,
-				OBJ_426 /* ConcurrentMainScheduler.swift in Sources */,
-				OBJ_427 /* ConnectableObservable.swift in Sources */,
-				OBJ_428 /* ConnectableObservableType.swift in Sources */,
-				OBJ_429 /* CurrentThreadScheduler.swift in Sources */,
-				OBJ_430 /* Debug.swift in Sources */,
-				OBJ_431 /* Debunce.swift in Sources */,
-				OBJ_432 /* Deferred.swift in Sources */,
-				OBJ_433 /* Delay.swift in Sources */,
-				OBJ_434 /* DelaySubscription.swift in Sources */,
-				OBJ_435 /* DispatchQueue+Extensions.swift in Sources */,
-				OBJ_436 /* DispatchQueueConfiguration.swift in Sources */,
-				OBJ_437 /* Disposable.swift in Sources */,
-				OBJ_438 /* Disposables.swift in Sources */,
-				OBJ_439 /* DisposeBag.swift in Sources */,
-				OBJ_440 /* DisposeBase.swift in Sources */,
-				OBJ_441 /* DistinctUntilChanged.swift in Sources */,
-				OBJ_442 /* Do.swift in Sources */,
-				OBJ_443 /* ElementAt.swift in Sources */,
-				OBJ_444 /* Empty.swift in Sources */,
-				OBJ_445 /* Error.swift in Sources */,
-				OBJ_446 /* Errors.swift in Sources */,
-				OBJ_447 /* Event.swift in Sources */,
-				OBJ_448 /* Filter.swift in Sources */,
-				OBJ_449 /* Generate.swift in Sources */,
-				OBJ_450 /* HistoricalScheduler.swift in Sources */,
-				OBJ_451 /* HistoricalSchedulerTimeConverter.swift in Sources */,
-				OBJ_452 /* ImmediateScheduler.swift in Sources */,
-				OBJ_453 /* ImmediateSchedulerType.swift in Sources */,
-				OBJ_454 /* InfiniteSequence.swift in Sources */,
-				OBJ_455 /* InvocableScheduledItem.swift in Sources */,
-				OBJ_456 /* InvocableType.swift in Sources */,
-				OBJ_457 /* Just.swift in Sources */,
-				OBJ_458 /* Lock.swift in Sources */,
-				OBJ_459 /* LockOwnerType.swift in Sources */,
-				OBJ_460 /* MainScheduler.swift in Sources */,
-				OBJ_461 /* Map.swift in Sources */,
-				OBJ_462 /* Merge.swift in Sources */,
-				OBJ_463 /* Multicast.swift in Sources */,
-				OBJ_464 /* Never.swift in Sources */,
-				OBJ_465 /* NopDisposable.swift in Sources */,
-				OBJ_466 /* Observable+Aggregate.swift in Sources */,
-				OBJ_467 /* Observable+Binding.swift in Sources */,
-				OBJ_468 /* Observable+Concurrency.swift in Sources */,
-				OBJ_469 /* Observable+Creation.swift in Sources */,
-				OBJ_470 /* Observable+Debug.swift in Sources */,
-				OBJ_471 /* Observable+Multiple.swift in Sources */,
-				OBJ_472 /* Observable+Single.swift in Sources */,
-				OBJ_473 /* Observable+StandardSequenceOperators.swift in Sources */,
-				OBJ_474 /* Observable+Time.swift in Sources */,
-				OBJ_475 /* Observable.swift in Sources */,
-				OBJ_476 /* ObservableConvertibleType.swift in Sources */,
-				OBJ_477 /* ObservableType+Extensions.swift in Sources */,
-				OBJ_478 /* ObservableType.swift in Sources */,
-				OBJ_479 /* ObserveOn.swift in Sources */,
-				OBJ_480 /* ObserveOnSerialDispatchQueue.swift in Sources */,
-				OBJ_481 /* ObserverBase.swift in Sources */,
-				OBJ_482 /* ObserverType.swift in Sources */,
-				OBJ_483 /* OperationQueueScheduler.swift in Sources */,
-				OBJ_484 /* Platform.Darwin.swift in Sources */,
-				OBJ_485 /* Platform.Linux.swift in Sources */,
-				OBJ_486 /* PriorityQueue.swift in Sources */,
-				OBJ_487 /* Producer.swift in Sources */,
-				OBJ_488 /* PublishSubject.swift in Sources */,
-				OBJ_489 /* Queue.swift in Sources */,
-				OBJ_490 /* Range.swift in Sources */,
-				OBJ_491 /* Reactive.swift in Sources */,
-				OBJ_492 /* RecursiveScheduler.swift in Sources */,
-				OBJ_493 /* Reduce.swift in Sources */,
-				OBJ_494 /* RefCount.swift in Sources */,
-				OBJ_495 /* RefCountDisposable.swift in Sources */,
-				OBJ_496 /* Repeat.swift in Sources */,
-				OBJ_497 /* ReplaySubject.swift in Sources */,
-				OBJ_498 /* RetryWhen.swift in Sources */,
-				OBJ_499 /* Rx.swift in Sources */,
-				OBJ_500 /* RxMutableBox.swift in Sources */,
-				OBJ_501 /* Sample.swift in Sources */,
-				OBJ_502 /* Scan.swift in Sources */,
-				OBJ_503 /* ScheduledDisposable.swift in Sources */,
-				OBJ_504 /* ScheduledItem.swift in Sources */,
-				OBJ_505 /* ScheduledItemType.swift in Sources */,
-				OBJ_506 /* SchedulerServices+Emulation.swift in Sources */,
-				OBJ_507 /* SchedulerType.swift in Sources */,
-				OBJ_508 /* Sequence.swift in Sources */,
-				OBJ_509 /* SerialDispatchQueueScheduler.swift in Sources */,
-				OBJ_510 /* SerialDisposable.swift in Sources */,
-				OBJ_511 /* ShareReplay1.swift in Sources */,
-				OBJ_512 /* ShareReplay1WhileConnected.swift in Sources */,
-				OBJ_513 /* SingleAssignmentDisposable.swift in Sources */,
-				OBJ_514 /* SingleAsync.swift in Sources */,
-				OBJ_515 /* Sink.swift in Sources */,
-				OBJ_516 /* Skip.swift in Sources */,
-				OBJ_517 /* SkipUntil.swift in Sources */,
-				OBJ_518 /* SkipWhile.swift in Sources */,
-				OBJ_519 /* StartWith.swift in Sources */,
-				OBJ_520 /* String+Rx.swift in Sources */,
-				OBJ_521 /* SubjectType.swift in Sources */,
-				OBJ_522 /* SubscribeOn.swift in Sources */,
-				OBJ_523 /* SubscriptionDisposable.swift in Sources */,
-				OBJ_524 /* Switch.swift in Sources */,
-				OBJ_525 /* SynchronizedDisposeType.swift in Sources */,
-				OBJ_526 /* SynchronizedOnType.swift in Sources */,
-				OBJ_527 /* SynchronizedSubscribeType.swift in Sources */,
-				OBJ_528 /* SynchronizedUnsubscribeType.swift in Sources */,
-				OBJ_529 /* TailRecursiveSink.swift in Sources */,
-				OBJ_530 /* Take.swift in Sources */,
-				OBJ_531 /* TakeLast.swift in Sources */,
-				OBJ_532 /* TakeUntil.swift in Sources */,
-				OBJ_533 /* TakeWhile.swift in Sources */,
-				OBJ_534 /* Throttle.swift in Sources */,
-				OBJ_535 /* Timeout.swift in Sources */,
-				OBJ_536 /* Timer.swift in Sources */,
-				OBJ_537 /* ToArray.swift in Sources */,
-				OBJ_538 /* Using.swift in Sources */,
-				OBJ_539 /* Variable.swift in Sources */,
-				OBJ_540 /* VirtualTimeConverterType.swift in Sources */,
-				OBJ_541 /* VirtualTimeScheduler.swift in Sources */,
-				OBJ_542 /* Window.swift in Sources */,
-				OBJ_543 /* WithLatestFrom.swift in Sources */,
-				OBJ_544 /* Zip+arity.swift in Sources */,
-				OBJ_545 /* Zip+Collection.swift in Sources */,
-				OBJ_546 /* Zip.swift in Sources */,
+				OBJ_424 /* AddRef.swift in Sources */,
+				OBJ_425 /* Amb.swift in Sources */,
+				OBJ_426 /* AnonymousDisposable.swift in Sources */,
+				OBJ_427 /* AnonymousInvocable.swift in Sources */,
+				OBJ_428 /* AnonymousObservable.swift in Sources */,
+				OBJ_429 /* AnonymousObserver.swift in Sources */,
+				OBJ_430 /* AnyObserver.swift in Sources */,
+				OBJ_431 /* AsyncLock.swift in Sources */,
+				OBJ_432 /* Bag+Rx.swift in Sources */,
+				OBJ_433 /* Bag.swift in Sources */,
+				OBJ_434 /* BehaviorSubject.swift in Sources */,
+				OBJ_435 /* BinaryDisposable.swift in Sources */,
+				OBJ_436 /* BooleanDisposable.swift in Sources */,
+				OBJ_437 /* Buffer.swift in Sources */,
+				OBJ_438 /* Cancelable.swift in Sources */,
+				OBJ_439 /* Catch.swift in Sources */,
+				OBJ_440 /* CombineLatest+arity.swift in Sources */,
+				OBJ_441 /* CombineLatest+Collection.swift in Sources */,
+				OBJ_442 /* CombineLatest.swift in Sources */,
+				OBJ_443 /* CompositeDisposable.swift in Sources */,
+				OBJ_444 /* Concat.swift in Sources */,
+				OBJ_445 /* ConcurrentDispatchQueueScheduler.swift in Sources */,
+				OBJ_446 /* ConcurrentMainScheduler.swift in Sources */,
+				OBJ_447 /* ConnectableObservable.swift in Sources */,
+				OBJ_448 /* ConnectableObservableType.swift in Sources */,
+				OBJ_449 /* CurrentThreadScheduler.swift in Sources */,
+				OBJ_450 /* Debug.swift in Sources */,
+				OBJ_451 /* Debunce.swift in Sources */,
+				OBJ_452 /* Deferred.swift in Sources */,
+				OBJ_453 /* Delay.swift in Sources */,
+				OBJ_454 /* DelaySubscription.swift in Sources */,
+				OBJ_455 /* DispatchQueue+Extensions.swift in Sources */,
+				OBJ_456 /* DispatchQueueConfiguration.swift in Sources */,
+				OBJ_457 /* Disposable.swift in Sources */,
+				OBJ_458 /* Disposables.swift in Sources */,
+				OBJ_459 /* DisposeBag.swift in Sources */,
+				OBJ_460 /* DisposeBase.swift in Sources */,
+				OBJ_461 /* DistinctUntilChanged.swift in Sources */,
+				OBJ_462 /* Do.swift in Sources */,
+				OBJ_463 /* ElementAt.swift in Sources */,
+				OBJ_464 /* Empty.swift in Sources */,
+				OBJ_465 /* Error.swift in Sources */,
+				OBJ_466 /* Errors.swift in Sources */,
+				OBJ_467 /* Event.swift in Sources */,
+				OBJ_468 /* Filter.swift in Sources */,
+				OBJ_469 /* Generate.swift in Sources */,
+				OBJ_470 /* HistoricalScheduler.swift in Sources */,
+				OBJ_471 /* HistoricalSchedulerTimeConverter.swift in Sources */,
+				OBJ_472 /* ImmediateScheduler.swift in Sources */,
+				OBJ_473 /* ImmediateSchedulerType.swift in Sources */,
+				OBJ_474 /* InfiniteSequence.swift in Sources */,
+				OBJ_475 /* InvocableScheduledItem.swift in Sources */,
+				OBJ_476 /* InvocableType.swift in Sources */,
+				OBJ_477 /* Just.swift in Sources */,
+				OBJ_478 /* Lock.swift in Sources */,
+				OBJ_479 /* LockOwnerType.swift in Sources */,
+				OBJ_480 /* MainScheduler.swift in Sources */,
+				OBJ_481 /* Map.swift in Sources */,
+				OBJ_482 /* Merge.swift in Sources */,
+				OBJ_483 /* Multicast.swift in Sources */,
+				OBJ_484 /* Never.swift in Sources */,
+				OBJ_485 /* NopDisposable.swift in Sources */,
+				OBJ_486 /* Observable+Aggregate.swift in Sources */,
+				OBJ_487 /* Observable+Binding.swift in Sources */,
+				OBJ_488 /* Observable+Concurrency.swift in Sources */,
+				OBJ_489 /* Observable+Creation.swift in Sources */,
+				OBJ_490 /* Observable+Debug.swift in Sources */,
+				OBJ_491 /* Observable+Multiple.swift in Sources */,
+				OBJ_492 /* Observable+Single.swift in Sources */,
+				OBJ_493 /* Observable+StandardSequenceOperators.swift in Sources */,
+				OBJ_494 /* Observable+Time.swift in Sources */,
+				OBJ_495 /* Observable.swift in Sources */,
+				OBJ_496 /* ObservableConvertibleType.swift in Sources */,
+				OBJ_497 /* ObservableType+Extensions.swift in Sources */,
+				OBJ_498 /* ObservableType.swift in Sources */,
+				OBJ_499 /* ObserveOn.swift in Sources */,
+				OBJ_500 /* ObserveOnSerialDispatchQueue.swift in Sources */,
+				OBJ_501 /* ObserverBase.swift in Sources */,
+				OBJ_502 /* ObserverType.swift in Sources */,
+				OBJ_503 /* OperationQueueScheduler.swift in Sources */,
+				OBJ_504 /* Platform.Darwin.swift in Sources */,
+				OBJ_505 /* Platform.Linux.swift in Sources */,
+				OBJ_506 /* PriorityQueue.swift in Sources */,
+				OBJ_507 /* Producer.swift in Sources */,
+				OBJ_508 /* PublishSubject.swift in Sources */,
+				OBJ_509 /* Queue.swift in Sources */,
+				OBJ_510 /* Range.swift in Sources */,
+				OBJ_511 /* Reactive.swift in Sources */,
+				OBJ_512 /* RecursiveScheduler.swift in Sources */,
+				OBJ_513 /* Reduce.swift in Sources */,
+				OBJ_514 /* RefCount.swift in Sources */,
+				OBJ_515 /* RefCountDisposable.swift in Sources */,
+				OBJ_516 /* Repeat.swift in Sources */,
+				OBJ_517 /* ReplaySubject.swift in Sources */,
+				OBJ_518 /* RetryWhen.swift in Sources */,
+				OBJ_519 /* Rx.swift in Sources */,
+				OBJ_520 /* RxMutableBox.swift in Sources */,
+				OBJ_521 /* Sample.swift in Sources */,
+				OBJ_522 /* Scan.swift in Sources */,
+				OBJ_523 /* ScheduledDisposable.swift in Sources */,
+				OBJ_524 /* ScheduledItem.swift in Sources */,
+				OBJ_525 /* ScheduledItemType.swift in Sources */,
+				OBJ_526 /* SchedulerServices+Emulation.swift in Sources */,
+				OBJ_527 /* SchedulerType.swift in Sources */,
+				OBJ_528 /* Sequence.swift in Sources */,
+				OBJ_529 /* SerialDispatchQueueScheduler.swift in Sources */,
+				OBJ_530 /* SerialDisposable.swift in Sources */,
+				OBJ_531 /* ShareReplay1.swift in Sources */,
+				OBJ_532 /* ShareReplay1WhileConnected.swift in Sources */,
+				OBJ_533 /* SingleAssignmentDisposable.swift in Sources */,
+				OBJ_534 /* SingleAsync.swift in Sources */,
+				OBJ_535 /* Sink.swift in Sources */,
+				OBJ_536 /* Skip.swift in Sources */,
+				OBJ_537 /* SkipUntil.swift in Sources */,
+				OBJ_538 /* SkipWhile.swift in Sources */,
+				OBJ_539 /* StartWith.swift in Sources */,
+				OBJ_540 /* String+Rx.swift in Sources */,
+				OBJ_541 /* SubjectType.swift in Sources */,
+				OBJ_542 /* SubscribeOn.swift in Sources */,
+				OBJ_543 /* SubscriptionDisposable.swift in Sources */,
+				OBJ_544 /* Switch.swift in Sources */,
+				OBJ_545 /* SynchronizedDisposeType.swift in Sources */,
+				OBJ_546 /* SynchronizedOnType.swift in Sources */,
+				OBJ_547 /* SynchronizedSubscribeType.swift in Sources */,
+				OBJ_548 /* SynchronizedUnsubscribeType.swift in Sources */,
+				OBJ_549 /* TailRecursiveSink.swift in Sources */,
+				OBJ_550 /* Take.swift in Sources */,
+				OBJ_551 /* TakeLast.swift in Sources */,
+				OBJ_552 /* TakeUntil.swift in Sources */,
+				OBJ_553 /* TakeWhile.swift in Sources */,
+				OBJ_554 /* Throttle.swift in Sources */,
+				OBJ_555 /* Timeout.swift in Sources */,
+				OBJ_556 /* Timer.swift in Sources */,
+				OBJ_557 /* ToArray.swift in Sources */,
+				OBJ_558 /* Using.swift in Sources */,
+				OBJ_559 /* Variable.swift in Sources */,
+				OBJ_560 /* VirtualTimeConverterType.swift in Sources */,
+				OBJ_561 /* VirtualTimeScheduler.swift in Sources */,
+				OBJ_562 /* Window.swift in Sources */,
+				OBJ_563 /* WithLatestFrom.swift in Sources */,
+				OBJ_564 /* Zip+arity.swift in Sources */,
+				OBJ_565 /* Zip+Collection.swift in Sources */,
+				OBJ_566 /* Zip.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_552 /* Sources */ = {
+		OBJ_572 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				F6B4593F1DFB678C00B1BE1B /* ComplexTriangleSlave.swift in Sources */,
-				F6B459321DFB4BAF00B1BE1B /* Day2Solution.swift in Sources */,
-				F6B459441DFC008600B1BE1B /* Room.swift in Sources */,
-				OBJ_553 /* main.swift in Sources */,
-				OBJ_554 /* ChallengeDataService.swift in Sources */,
-				F6B4592B1DFAE38800B1BE1B /* Walk.swift in Sources */,
-				F6B459461DFC01DB00B1BE1B /* RoomSlave.swift in Sources */,
-				OBJ_555 /* ChallengeFileService.swift in Sources */,
-				F6B459391DFB613D00B1BE1B /* Day3Solution.swift in Sources */,
-				F6B459341DFB4BF200B1BE1B /* KeyPad.swift in Sources */,
-				F6B459421DFBFFDE00B1BE1B /* Day4Solution.swift in Sources */,
-				OBJ_556 /* ChallengeWebService.swift in Sources */,
-				F63B80E11DF9FBCB00DE1E64 /* ChallengeData.swift in Sources */,
-				F6B4592E1DFAEC4E00B1BE1B /* WalkSlave.swift in Sources */,
-				F6B4592C1DFAE3D000B1BE1B /* Coordinate.swift in Sources */,
-				F6B459361DFB4D9B00B1BE1B /* KeySlave.swift in Sources */,
-				F6B4593B1DFB618500B1BE1B /* Triangle.swift in Sources */,
-				OBJ_557 /* Solution.swift in Sources */,
-				OBJ_558 /* Day1Solution.swift in Sources */,
-				F6B4593D1DFB61EF00B1BE1B /* SimpleTriangleSlave.swift in Sources */,
+				OBJ_573 /* main.swift in Sources */,
+				OBJ_574 /* ChallengeData.swift in Sources */,
+				OBJ_575 /* ChallengeDataService.swift in Sources */,
+				OBJ_576 /* ChallengeFileService.swift in Sources */,
+				OBJ_577 /* ChallengeWebService.swift in Sources */,
+				OBJ_578 /* Solution.swift in Sources */,
+				OBJ_579 /* Coordinate.swift in Sources */,
+				OBJ_580 /* Day1Solution.swift in Sources */,
+				OBJ_581 /* Walk.swift in Sources */,
+				OBJ_582 /* WalkSlave.swift in Sources */,
+				OBJ_583 /* Day2Solution.swift in Sources */,
+				OBJ_584 /* KeyPad.swift in Sources */,
+				OBJ_585 /* KeySlave.swift in Sources */,
+				OBJ_586 /* ComplexTriangleSlave.swift in Sources */,
+				OBJ_587 /* Day3Solution.swift in Sources */,
+				OBJ_588 /* SimpleTriangleSlave.swift in Sources */,
+				OBJ_589 /* Triangle.swift in Sources */,
+				OBJ_590 /* Day4Solution.swift in Sources */,
+				OBJ_591 /* Room.swift in Sources */,
+				OBJ_592 /* RoomSlave.swift in Sources */,
+				OBJ_593 /* Day5Solution.swift in Sources */,
+				OBJ_594 /* HashSlave.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_289 /* PBXTargetDependency */ = {
+		OBJ_309 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_290 /* RxSwift */;
-			targetProxy = F63B80D51DF9F9AE00DE1E64 /* PBXContainerItemProxy */;
+			target = OBJ_310 /* RxSwift */;
+			targetProxy = F6517A0C1DFD7D99002CB8EA /* PBXContainerItemProxy */;
 		};
-		OBJ_564 /* PBXTargetDependency */ = {
+		OBJ_600 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_290 /* RxSwift */;
-			targetProxy = F63B80D91DF9F9AE00DE1E64 /* PBXContainerItemProxy */;
+			target = OBJ_310 /* RxSwift */;
+			targetProxy = F6517A101DFD7D99002CB8EA /* PBXContainerItemProxy */;
 		};
-		OBJ_565 /* PBXTargetDependency */ = {
+		OBJ_601 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_276 /* RxBlocking */;
-			targetProxy = F63B80DA1DF9F9AE00DE1E64 /* PBXContainerItemProxy */;
+			target = OBJ_296 /* RxBlocking */;
+			targetProxy = F6517A111DFD7D99002CB8EA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		OBJ_278 /* Debug */ = {
+		OBJ_298 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1220,7 +1237,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_279 /* Release */ = {
+		OBJ_299 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1276,7 +1293,7 @@
 			};
 			name = Release;
 		};
-		OBJ_401 /* Debug */ = {
+		OBJ_421 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1296,7 +1313,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_402 /* Release */ = {
+		OBJ_422 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1316,11 +1333,14 @@
 			};
 			name = Release;
 		};
-		OBJ_550 /* Debug */ = {
+		OBJ_570 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				HEADER_SEARCH_PATHS = "Packages/RxSwift-3.0.1/Sources/RxCocoaRuntime/include";
+				HEADER_SEARCH_PATHS = (
+					"Packages/RxSwift-3.0.1/Sources/RxCocoaRuntime/include",
+					"Packages/CommonCrypto-0.1.4",
+				);
 				INFOPLIST_FILE = AoC2016.xcodeproj/AoC2016_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_TEMP_DIR)/SymlinkLibs/";
@@ -1335,11 +1355,14 @@
 			};
 			name = Debug;
 		};
-		OBJ_551 /* Release */ = {
+		OBJ_571 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				HEADER_SEARCH_PATHS = "Packages/RxSwift-3.0.1/Sources/RxCocoaRuntime/include";
+				HEADER_SEARCH_PATHS = (
+					"Packages/RxSwift-3.0.1/Sources/RxCocoaRuntime/include",
+					"Packages/CommonCrypto-0.1.4",
+				);
 				INFOPLIST_FILE = AoC2016.xcodeproj/AoC2016_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_TEMP_DIR)/SymlinkLibs/";
@@ -1366,29 +1389,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_277 /* Build configuration list for PBXNativeTarget "RxBlocking" */ = {
+		OBJ_297 /* Build configuration list for PBXNativeTarget "RxBlocking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_278 /* Debug */,
-				OBJ_279 /* Release */,
+				OBJ_298 /* Debug */,
+				OBJ_299 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_400 /* Build configuration list for PBXNativeTarget "RxSwift" */ = {
+		OBJ_420 /* Build configuration list for PBXNativeTarget "RxSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_401 /* Debug */,
-				OBJ_402 /* Release */,
+				OBJ_421 /* Debug */,
+				OBJ_422 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_549 /* Build configuration list for PBXNativeTarget "AoC2016" */ = {
+		OBJ_569 /* Build configuration list for PBXNativeTarget "AoC2016" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_550 /* Debug */,
-				OBJ_551 /* Release */,
+				OBJ_570 /* Debug */,
+				OBJ_571 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
