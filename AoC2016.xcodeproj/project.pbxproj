@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F66FD0001DFDF53400507448 /* Day6Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66FCFFF1DFDF53400507448 /* Day6Solution.swift */; };
+		F66FD0021DFDF70800507448 /* NoiseCancelSlave.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66FD0011DFDF70800507448 /* NoiseCancelSlave.swift */; };
 		OBJ_301 /* BlockingObservable+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* BlockingObservable+Operators.swift */; };
 		OBJ_302 /* BlockingObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* BlockingObservable.swift */; };
 		OBJ_303 /* ObservableConvertibleType+Blocking.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* ObservableConvertibleType+Blocking.swift */; };
@@ -208,6 +210,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F66FCFFF1DFDF53400507448 /* Day6Solution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day6Solution.swift; sourceTree = "<group>"; };
+		F66FD0011DFDF70800507448 /* NoiseCancelSlave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoiseCancelSlave.swift; sourceTree = "<group>"; };
 		OBJ_10 /* BlockingObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockingObservable.swift; sourceTree = "<group>"; };
 		OBJ_100 /* Variable+Driver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Variable+Driver.swift"; sourceTree = "<group>"; };
 		OBJ_101 /* Variable+SharedSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Variable+SharedSequence.swift"; sourceTree = "<group>"; };
@@ -510,6 +514,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F66FCFFE1DFDF52C00507448 /* Day6 */ = {
+			isa = PBXGroup;
+			children = (
+				F66FCFFF1DFDF53400507448 /* Day6Solution.swift */,
+				F66FD0011DFDF70800507448 /* NoiseCancelSlave.swift */,
+			);
+			path = Day6;
+			sourceTree = "<group>";
+		};
 		OBJ_102 /* RxCocoaRuntime */ = {
 			isa = PBXGroup;
 			children = (
@@ -806,6 +819,7 @@
 		OBJ_265 /* Solutions */ = {
 			isa = PBXGroup;
 			children = (
+				F66FCFFE1DFDF52C00507448 /* Day6 */,
 				OBJ_266 /* Solution.swift */,
 				OBJ_267 /* Day1 */,
 				OBJ_272 /* Day2 */,
@@ -884,7 +898,7 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -893,7 +907,6 @@
 				OBJ_289 /* Data */,
 				OBJ_290 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -991,7 +1004,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_290 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1187,6 +1200,8 @@
 				OBJ_586 /* ComplexTriangleSlave.swift in Sources */,
 				OBJ_587 /* Day3Solution.swift in Sources */,
 				OBJ_588 /* SimpleTriangleSlave.swift in Sources */,
+				F66FD0021DFDF70800507448 /* NoiseCancelSlave.swift in Sources */,
+				F66FD0001DFDF53400507448 /* Day6Solution.swift in Sources */,
 				OBJ_589 /* Triangle.swift in Sources */,
 				OBJ_590 /* Day4Solution.swift in Sources */,
 				OBJ_591 /* Room.swift in Sources */,
