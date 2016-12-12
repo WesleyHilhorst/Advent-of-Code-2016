@@ -46,12 +46,12 @@ public class IPV7Slave {
 		for (i, hasAbba) in parts.enumerated() {
 			
 			// These parts should be outside of the brackets
-			if hasAbba && i % 2 == 0 {
+			if i % 2 == 0 && hasAbba {
 				didFindAbbaOutsideBrackets = true
 			}
 			
 			// These parts should be inside of the brackets
-			if hasAbba && i % 2 == 1 {
+			if i % 2 == 1 && hasAbba {
 				didFindAbbaWithinBrackets = true
 			}
 			
