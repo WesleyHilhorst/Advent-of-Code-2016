@@ -17,7 +17,7 @@ public class IPV7Slave {
 		ipLines = input.components(separatedBy: "\n")
 			.map { $0.trimmingCharacters(in: .whitespacesAndNewlines) }
 			.filter { $0.characters.count > 0 }
-			
+		
 	}
 	
 	public func countIPsWithTLS() -> Int {
@@ -67,10 +67,6 @@ public class IPV7Slave {
 			.characters.split { $0 == "[" || $0 == "]" }
 			.map { abaMatches(inString: String($0)) }
 		
-		if parts.count == 0 {
-			return false
-		}
-
 		// Keep track of a reversed
 		var abaReversedListInsideBrackets = [String]()
 		var abaListOutsideBrackets = [String]()
