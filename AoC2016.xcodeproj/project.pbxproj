@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F66ED2721DFEE0090031EFB1 /* Day7Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66ED2711DFEE0090031EFB1 /* Day7Solution.swift */; };
+		F66ED2741DFEE0420031EFB1 /* IPV7Slave.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66ED2731DFEE0420031EFB1 /* IPV7Slave.swift */; };
 		F66FD0001DFDF53400507448 /* Day6Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66FCFFF1DFDF53400507448 /* Day6Solution.swift */; };
 		F66FD0021DFDF70800507448 /* NoiseCancelSlave.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66FD0011DFDF70800507448 /* NoiseCancelSlave.swift */; };
 		OBJ_301 /* BlockingObservable+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* BlockingObservable+Operators.swift */; };
@@ -210,6 +212,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F66ED2711DFEE0090031EFB1 /* Day7Solution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day7Solution.swift; sourceTree = "<group>"; };
+		F66ED2731DFEE0420031EFB1 /* IPV7Slave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPV7Slave.swift; sourceTree = "<group>"; };
 		F66FCFFF1DFDF53400507448 /* Day6Solution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day6Solution.swift; sourceTree = "<group>"; };
 		F66FD0011DFDF70800507448 /* NoiseCancelSlave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoiseCancelSlave.swift; sourceTree = "<group>"; };
 		OBJ_10 /* BlockingObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockingObservable.swift; sourceTree = "<group>"; };
@@ -514,6 +518,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F66ED2701DFEDFF60031EFB1 /* Day7 */ = {
+			isa = PBXGroup;
+			children = (
+				F66ED2711DFEE0090031EFB1 /* Day7Solution.swift */,
+				F66ED2731DFEE0420031EFB1 /* IPV7Slave.swift */,
+			);
+			path = Day7;
+			sourceTree = "<group>";
+		};
 		F66FCFFE1DFDF52C00507448 /* Day6 */ = {
 			isa = PBXGroup;
 			children = (
@@ -825,6 +838,7 @@
 				OBJ_281 /* Day4 */,
 				OBJ_285 /* Day5 */,
 				F66FCFFE1DFDF52C00507448 /* Day6 */,
+				F66ED2701DFEDFF60031EFB1 /* Day7 */,
 				OBJ_266 /* Solution.swift */,
 			);
 			path = Solutions;
@@ -1188,6 +1202,7 @@
 				OBJ_574 /* ChallengeData.swift in Sources */,
 				OBJ_575 /* ChallengeDataService.swift in Sources */,
 				OBJ_576 /* ChallengeFileService.swift in Sources */,
+				F66ED2721DFEE0090031EFB1 /* Day7Solution.swift in Sources */,
 				OBJ_577 /* ChallengeWebService.swift in Sources */,
 				OBJ_578 /* Solution.swift in Sources */,
 				OBJ_579 /* Coordinate.swift in Sources */,
@@ -1204,6 +1219,7 @@
 				F66FD0001DFDF53400507448 /* Day6Solution.swift in Sources */,
 				OBJ_589 /* Triangle.swift in Sources */,
 				OBJ_590 /* Day4Solution.swift in Sources */,
+				F66ED2741DFEE0420031EFB1 /* IPV7Slave.swift in Sources */,
 				OBJ_591 /* Room.swift in Sources */,
 				OBJ_592 /* RoomSlave.swift in Sources */,
 				OBJ_593 /* Day5Solution.swift in Sources */,
