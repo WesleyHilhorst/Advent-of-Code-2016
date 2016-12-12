@@ -110,7 +110,6 @@ public class IPV7Slave {
 	
 		let nsstring = NSString(string: string)
 		
-
 		return matches
 			.filter {
 			
