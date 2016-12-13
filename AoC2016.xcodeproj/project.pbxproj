@@ -9,8 +9,10 @@
 /* Begin PBXBuildFile section */
 		F66ED2721DFEE0090031EFB1 /* Day7Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66ED2711DFEE0090031EFB1 /* Day7Solution.swift */; };
 		F66ED2741DFEE0420031EFB1 /* IPV7Slave.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66ED2731DFEE0420031EFB1 /* IPV7Slave.swift */; };
+		F66ED27F1E0011D80031EFB1 /* Day8Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66ED27E1E0011D80031EFB1 /* Day8Solution.swift */; };
 		F66FD0001DFDF53400507448 /* Day6Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66FCFFF1DFDF53400507448 /* Day6Solution.swift */; };
 		F66FD0021DFDF70800507448 /* NoiseCancelSlave.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66FD0011DFDF70800507448 /* NoiseCancelSlave.swift */; };
+		F694572A1E0083B400F53DA9 /* ScreenSlave.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69457291E0083B400F53DA9 /* ScreenSlave.swift */; };
 		OBJ_301 /* BlockingObservable+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* BlockingObservable+Operators.swift */; };
 		OBJ_302 /* BlockingObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* BlockingObservable.swift */; };
 		OBJ_303 /* ObservableConvertibleType+Blocking.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* ObservableConvertibleType+Blocking.swift */; };
@@ -214,8 +216,10 @@
 /* Begin PBXFileReference section */
 		F66ED2711DFEE0090031EFB1 /* Day7Solution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day7Solution.swift; sourceTree = "<group>"; };
 		F66ED2731DFEE0420031EFB1 /* IPV7Slave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPV7Slave.swift; sourceTree = "<group>"; };
+		F66ED27E1E0011D80031EFB1 /* Day8Solution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day8Solution.swift; sourceTree = "<group>"; };
 		F66FCFFF1DFDF53400507448 /* Day6Solution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day6Solution.swift; sourceTree = "<group>"; };
 		F66FD0011DFDF70800507448 /* NoiseCancelSlave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoiseCancelSlave.swift; sourceTree = "<group>"; };
+		F69457291E0083B400F53DA9 /* ScreenSlave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenSlave.swift; sourceTree = "<group>"; };
 		OBJ_10 /* BlockingObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockingObservable.swift; sourceTree = "<group>"; };
 		OBJ_100 /* Variable+Driver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Variable+Driver.swift"; sourceTree = "<group>"; };
 		OBJ_101 /* Variable+SharedSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Variable+SharedSequence.swift"; sourceTree = "<group>"; };
@@ -527,6 +531,15 @@
 			path = Day7;
 			sourceTree = "<group>";
 		};
+		F66ED27D1E0011C90031EFB1 /* Day8 */ = {
+			isa = PBXGroup;
+			children = (
+				F66ED27E1E0011D80031EFB1 /* Day8Solution.swift */,
+				F69457291E0083B400F53DA9 /* ScreenSlave.swift */,
+			);
+			path = Day8;
+			sourceTree = "<group>";
+		};
 		F66FCFFE1DFDF52C00507448 /* Day6 */ = {
 			isa = PBXGroup;
 			children = (
@@ -832,6 +845,7 @@
 		OBJ_265 /* Solutions */ = {
 			isa = PBXGroup;
 			children = (
+				F66ED27D1E0011C90031EFB1 /* Day8 */,
 				OBJ_267 /* Day1 */,
 				OBJ_272 /* Day2 */,
 				OBJ_276 /* Day3 */,
@@ -1218,12 +1232,14 @@
 				F66FD0021DFDF70800507448 /* NoiseCancelSlave.swift in Sources */,
 				F66FD0001DFDF53400507448 /* Day6Solution.swift in Sources */,
 				OBJ_589 /* Triangle.swift in Sources */,
+				F66ED27F1E0011D80031EFB1 /* Day8Solution.swift in Sources */,
 				OBJ_590 /* Day4Solution.swift in Sources */,
 				F66ED2741DFEE0420031EFB1 /* IPV7Slave.swift in Sources */,
 				OBJ_591 /* Room.swift in Sources */,
 				OBJ_592 /* RoomSlave.swift in Sources */,
 				OBJ_593 /* Day5Solution.swift in Sources */,
 				OBJ_594 /* HashSlave.swift in Sources */,
+				F694572A1E0083B400F53DA9 /* ScreenSlave.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

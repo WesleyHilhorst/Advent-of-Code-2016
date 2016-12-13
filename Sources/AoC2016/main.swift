@@ -20,7 +20,8 @@ public class Application {
 		Day4Solution(),
 		Day5Solution(),
 		Day6Solution(),
-		Day7Solution()
+		Day7Solution(),
+		Day8Solution()
 	]
 
 	@discardableResult
