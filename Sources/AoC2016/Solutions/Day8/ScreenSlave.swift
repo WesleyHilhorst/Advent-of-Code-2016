@@ -165,7 +165,7 @@ public class ScreenSlave {
 			
 			for x in screenColumns[y] {
 				
-				row.append(x ? "XX" : "||")
+				row.append(x ? "XX" : "--")
 				
 			}
 			

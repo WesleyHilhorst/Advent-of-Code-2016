@@ -845,7 +845,6 @@
 		OBJ_265 /* Solutions */ = {
 			isa = PBXGroup;
 			children = (
-				F66ED27D1E0011C90031EFB1 /* Day8 */,
 				OBJ_267 /* Day1 */,
 				OBJ_272 /* Day2 */,
 				OBJ_276 /* Day3 */,
@@ -853,6 +852,7 @@
 				OBJ_285 /* Day5 */,
 				F66FCFFE1DFDF52C00507448 /* Day6 */,
 				F66ED2701DFEDFF60031EFB1 /* Day7 */,
+				F66ED27D1E0011C90031EFB1 /* Day8 */,
 				OBJ_266 /* Solution.swift */,
 			);
 			path = Solutions;
